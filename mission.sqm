@@ -1,14 +1,14 @@
 version=53;
 class EditorData
 {
-	moveGridStep=1;
+	moveGridStep=2;
 	angleGridStep=0.017453292;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=618;
+	toggles=614;
 	class ItemIDProvider
 	{
-		nextID=14738;
+		nextID=14739;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=579;
+		nextID=622;
 	};
 	class Camera
 	{
-		pos[]={13022.449,97.671417,16442.199};
-		dir[]={-0.40977314,-0.23125805,0.88251561};
-		up[]={-0.097476706,0.97283065,0.20993261};
-		aside[]={0.90709448,6.8184454e-007,0.42118523};
+		pos[]={13147.711,36.677055,16565.646};
+		dir[]={0.73924005,-0.35232076,-0.57415283};
+		up[]={0.2783992,0.93578589,-0.21622665};
+		aside[]={-0.61347032,8.486677e-007,-0.78986704};
 	};
 };
 binarizationWanted=0;
@@ -94,6 +94,7 @@ addons[]=
 	"OPTRE_Buildings_Street_Objects",
 	"SWOP_LAAT",
 	"ATTE_SWOP",
+	"republic_weapon_modifications",
 	"SWOP_props_containers",
 	"A3_Structures_F_Heli_Items_Airport",
 	"A3_Structures_F_Exp_Walls_Pipe",
@@ -134,7 +135,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=85;
+		items=86;
 		class Item0
 		{
 			className="A3_Modules_F";
@@ -479,157 +480,162 @@ class AddonsMetaData
 		};
 		class Item59
 		{
+			className="republic_weapon_modifications";
+			name="republic_weapon_modifications";
+		};
+		class Item60
+		{
 			className="SWOP_props_containers";
 			name="SWOP_props_containers";
 			author="SWOP";
 		};
-		class Item60
+		class Item61
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item61
+		class Item62
 		{
 			className="Imperial_TurboLaser_SW";
 			name="Imperial_TurboLaser_SW";
 			author="SWOP";
 		};
-		class Item62
+		class Item63
 		{
 			className="OPTRE_UNSC_Structure_Misc";
 			name="OPTRE_UNSC_Structure_Misc";
 		};
-		class Item63
+		class Item64
 		{
 			className="A3_Structures_F_Exp_Industrial";
 			name="Arma 3 Apex - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item64
+		class Item65
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item65
+		class Item66
 		{
 			className="OPTRE_Vehicles_Cart";
 			name="OPTRE_Vehicles_Cart";
 		};
-		class Item66
+		class Item67
 		{
 			className="OPTRE_UNSC_Structure_Containers";
 			name="OPTRE_UNSC_Structure_Containers";
 		};
-		class Item67
+		class Item68
 		{
 			className="SWOP_WESTARM5";
 			name="SWOP_WESTARM5";
 			author="SWOP";
 		};
-		class Item68
+		class Item69
 		{
 			className="iondisruptor";
 			name="iondisruptor";
 			author="SWOP";
 		};
-		class Item69
+		class Item70
 		{
 			className="swop_Delta7";
 			name="swop_Delta7";
 			author="SWOP";
 		};
-		class Item70
+		class Item71
 		{
 			className="coridor_sw";
 			name="coridor_sw";
 			author="SWOP";
 		};
-		class Item71
+		class Item72
 		{
 			className="Venator";
 			name="Venator";
 			author="Spartan163";
 		};
-		class Item72
+		class Item73
 		{
 			className="swop_ywing";
 			name="swop_ywing";
 			author="SWOP";
 		};
-		class Item73
+		class Item74
 		{
 			className="A3_Props_F_Jets";
 			name="Arma 3 Jets - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item74
+		class Item75
 		{
 			className="Felucia_Plants";
 			name="Felucia_Plants";
 			author="Clon and Scar - SWOP";
 		};
-		class Item75
+		class Item76
 		{
 			className="ace_medical";
 			name="ACE3 - Medical";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item76
+		class Item77
 		{
 			className="SW_Assets";
 			name="SW_Assets";
 			author="Scar and Clon - SWOP";
 		};
-		class Item77
+		class Item78
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item78
+		class Item79
 		{
 			className="SWOP_clones_helmet";
 			name="SWOP_clones_helmet";
 			author="SWOP";
 		};
-		class Item79
+		class Item80
 		{
 			className="SWOP_clones_uniforms";
 			name="SWOP_clones_uniforms";
 			author="SWOP";
 		};
-		class Item80
+		class Item81
 		{
 			className="SWOP_clones_armor";
 			name="SWOP_clones_armor";
 			author="SWOP";
 		};
-		class Item81
+		class Item82
 		{
 			className="SWOP_Weapons_Explosives";
 			name="SWOP_Weapons_Explosives";
 			author="SWOP";
 		};
-		class Item82
+		class Item83
 		{
 			className="SW_PuntosdeCaptura";
 			name="SW_PuntosdeCaptura";
 			author="Scar - SWOP";
 		};
-		class Item83
+		class Item84
 		{
 			className="OPTRE_Vehicles_HEV";
 			name="OPTRE_Vehicles_HEV";
 		};
-		class Item84
+		class Item85
 		{
 			className="vurtual_seat";
 			name="vurtual_seat";
@@ -858,7 +864,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=382;
+		items=383;
 		class Item0
 		{
 			dataType="Logic";
@@ -16179,8 +16185,7 @@ class Mission
 		class Item347
 		{
 			dataType="Layer";
-			name="Proizon";
-			state=1;
+			name="Prison";
 			class Entities
 			{
 				items=47;
@@ -16648,8 +16653,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13153.386,37.218407,16569.393};
-						angles[]={0,1.6188508,0};
+						position[]={13153.49,36.492172,16568.908};
+						angles[]={0,1.6188452,0};
 					};
 					side="Empty";
 					flags=4;
@@ -16659,26 +16664,26 @@ class Mission
 					};
 					id=12518;
 					type="Land_laser_door2";
-					atlOffset=0.00025939941;
+					atlOffset=-0.61000061;
 				};
 				class Item28
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13153.237,35.700058,16565.053};
+						position[]={13153.237,35.699825,16565.053};
 						angles[]={0,4.7617121,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
-						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""wall_1""]];" \n "}";
+						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""this""], 1.5, true,  true,  """", ""true"", 2.5];" \n "}";
 						name="panel";
 					};
 					id=12501;
 					type="SWOP_controlPanelLarge";
-					atlOffset=0.00025939941;
+					atlOffset=2.6702881e-005;
 				};
 				class Item29
 				{
@@ -16702,8 +16707,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13146.147,36.491844,16554.027};
-						angles[]={0,5.5474625,0};
+						position[]={13146.147,36.492172,16554.027};
+						angles[]={0,5.5474591,0};
 					};
 					side="Empty";
 					flags=4;
@@ -16713,34 +16718,34 @@ class Mission
 					};
 					id=12519;
 					type="Land_laser_door2";
-					atlOffset=-0.61032867;
+					atlOffset=-0.61000061;
 				};
 				class Item31
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13150.042,35.700058,16557.24};
-						angles[]={0,2.413336,0};
+						position[]={13150.042,35.699825,16557.24};
+						angles[]={0,2.4133365,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
-						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""wall_1""]];" \n "}";
+						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""this""], 1.5, true,  true,  """", ""true"", 2.5];" \n "}";
 						name="panel_1";
 					};
 					id=12502;
 					type="SWOP_controlPanelLarge";
-					atlOffset=0.00025939941;
+					atlOffset=2.6702881e-005;
 				};
 				class Item32
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13143.89,36.491844,16560.467};
-						angles[]={0,0.048815489,0};
+						position[]={13143.89,36.492172,16560.467};
+						angles[]={0,0.048816856,0};
 					};
 					side="Empty";
 					flags=4;
@@ -16750,26 +16755,26 @@ class Mission
 					};
 					id=12520;
 					type="Land_laser_door2";
-					atlOffset=-0.61032867;
+					atlOffset=-0.61000061;
 				};
 				class Item33
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13148.222,35.700058,16560.439};
-						angles[]={0,3.2080553,0};
+						position[]={13148.222,35.699825,16560.439};
+						angles[]={0,3.2080548,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
-						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""wall_1""]];" \n "}";
+						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""this""], 1.5, true,  true,  """", ""true"", 1];" \n "}";
 						name="panel_2";
 					};
 					id=12503;
 					type="SWOP_controlPanelLarge";
-					atlOffset=0.00025939941;
+					atlOffset=2.6702881e-005;
 				};
 				class Item34
 				{
@@ -16827,27 +16832,27 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13150.204,35.700058,16563.313};
-						angles[]={0,4.0037966,0};
+						position[]={13150.204,35.699825,16563.313};
+						angles[]={0,4.0038028,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
-						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""wall_1""]];" \n "}";
+						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""this""], 1.5, true,  true,  """", ""true"", 2.5];" \n "}";
 						name="panel_3";
 					};
 					id=12504;
 					type="SWOP_controlPanelLarge";
-					atlOffset=0.00025939941;
+					atlOffset=2.6702881e-005;
 				};
 				class Item38
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13146.343,36.491844,16566.57};
-						angles[]={0,0.82646191,0};
+						position[]={13146.343,36.492172,16566.57};
+						angles[]={0,0.82646579,0};
 					};
 					side="Empty";
 					flags=4;
@@ -16857,7 +16862,7 @@ class Mission
 					};
 					id=12521;
 					type="Land_laser_door2";
-					atlOffset=-0.61032867;
+					atlOffset=-0.61000061;
 				};
 				class Item39
 				{
@@ -16881,27 +16886,27 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13152.899,35.700058,16555.387};
-						angles[]={0,1.6031061,0};
+						position[]={13152.9,35.699825,16555.387};
+						angles[]={0,1.6031023,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
-						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""wall_1""]];" \n "}";
+						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""this""], 1.5, true,  true,  """", ""true"", 2.5];" \n "}";
 						name="panel_4";
 					};
 					id=12505;
 					type="SWOP_controlPanelLarge";
-					atlOffset=0.00025939941;
+					atlOffset=2.6702881e-005;
 				};
 				class Item41
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13153.163,37.218407,16551.139};
-						angles[]={0,4.7519093,0};
+						position[]={13153.163,36.492172,16551.139};
+						angles[]={0,4.7519035,0};
 					};
 					side="Empty";
 					flags=4;
@@ -16911,26 +16916,26 @@ class Mission
 					};
 					id=12522;
 					type="Land_laser_door2";
-					atlOffset=0.00025939941;
+					atlOffset=-0.61000061;
 				};
 				class Item42
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13156.22,35.700058,16556.871};
-						angles[]={0,0.82027495,0};
+						position[]={13156.22,35.699825,16556.871};
+						angles[]={0,0.82026988,0};
 					};
 					side="Empty";
 					flags=5;
 					class Attributes
 					{
-						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""wall_1""]];" \n "}";
+						init="call{this addaction [""Выключить лазеры"", ""switch_laser_off.sqf"", [""this""], 1.5, true,  true,  """", ""true"", 2.5];" \n "}";
 						name="panel_5";
 					};
 					id=12506;
 					type="SWOP_controlPanelLarge";
-					atlOffset=0.00025939941;
+					atlOffset=2.6702881e-005;
 				};
 				class Item43
 				{
@@ -16955,8 +16960,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13149.636,40.169273,16566.492};
-						angles[]={0,4.7683716e-007,0};
+						position[]={13149.636,40.168972,16566.492};
 					};
 					side="Empty";
 					flags=1;
@@ -16966,7 +16970,7 @@ class Mission
 					};
 					id=12534;
 					type="land_landingplat_5_MLOD";
-					atlOffset=3.7733269;
+					atlOffset=3.7730255;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16988,7 +16992,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item45
@@ -17013,7 +17036,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13167.42,36.444099,16559.672};
+						position[]={13167.42,36.544781,16559.672};
 						angles[]={0,3.1590462,0};
 					};
 					side="Empty";
@@ -17023,11 +17046,10 @@ class Mission
 					};
 					id=12544;
 					type="Land_corridor_door02";
-					atlOffset=0.013568878;
 				};
 			};
 			id=12532;
-			atlOffset=0.19209671;
+			atlOffset=0.23104095;
 		};
 		class Item348
 		{
@@ -17042,7 +17064,7 @@ class Mission
 			flags=1;
 			id=12533;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=8.5825195;
+			atlOffset=8.5828209;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -33676,7 +33698,7 @@ class Mission
 		class Item358
 		{
 			dataType="Layer";
-			name="Камино столбыы";
+			name="Камино столбы";
 			state=1;
 			class Entities
 			{
@@ -34353,7 +34375,7 @@ class Mission
 		class Item369
 		{
 			dataType="Layer";
-			name="Наблюдения башня";
+			name="Наблюдательная башня";
 			class Entities
 			{
 				items=1;
@@ -34455,25 +34477,49 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12898.461,5.2745481,16689.299};
-						angles[]={0,6.195919,0};
+						position[]={13149.374,35.117439,16564.748};
+						angles[]={0,3.1590459,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						description="Test_dummy";
 						isPlayer=1;
 					};
 					id=14102;
 					type="SWOP_Clonetrooper_P1_a";
-					atlOffset=0.023108959;
+					atlOffset=2.6702881e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=14101;
-			atlOffset=0.023108959;
+			atlOffset=2.6702881e-005;
 		};
 		class Item371
 		{
@@ -34706,7 +34752,7 @@ class Mission
 		class Item378
 		{
 			dataType="Layer";
-			name="винатор";
+			name="Венатор";
 			class Entities
 			{
 				items=1264;
@@ -58976,7 +59022,7 @@ class Mission
 					};
 					id=14724;
 					type="vurtual_stretcher";
-					atlOffset=0.18545532;
+					atlOffset=0.18723679;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59034,7 +59080,7 @@ class Mission
 					};
 					id=14725;
 					type="vurtual_stretcher";
-					atlOffset=0.20648575;
+					atlOffset=0.20763016;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59091,7 +59137,7 @@ class Mission
 					};
 					id=14726;
 					type="vurtual_stretcher";
-					atlOffset=0.25144577;
+					atlOffset=0.25259781;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59148,7 +59194,7 @@ class Mission
 					};
 					id=14727;
 					type="vurtual_stretcher";
-					atlOffset=1.0050964;
+					atlOffset=1.0064011;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59205,7 +59251,7 @@ class Mission
 					};
 					id=14728;
 					type="vurtual_stretcher";
-					atlOffset=0.99836349;
+					atlOffset=0.99966812;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59262,7 +59308,7 @@ class Mission
 					};
 					id=14729;
 					type="vurtual_stretcher";
-					atlOffset=0.99380493;
+					atlOffset=0.99510956;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59319,7 +59365,7 @@ class Mission
 					};
 					id=14730;
 					type="vurtual_stretcher";
-					atlOffset=0.99261475;
+					atlOffset=0.99391937;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59377,7 +59423,7 @@ class Mission
 					};
 					id=14731;
 					type="vurtual_stretcher";
-					atlOffset=0.2673111;
+					atlOffset=0.26861572;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59435,7 +59481,7 @@ class Mission
 					};
 					id=14732;
 					type="vurtual_stretcher";
-					atlOffset=0.98998642;
+					atlOffset=0.99129105;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59493,7 +59539,7 @@ class Mission
 					};
 					id=14733;
 					type="vurtual_stretcher";
-					atlOffset=0.33311462;
+					atlOffset=0.33326721;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59551,7 +59597,7 @@ class Mission
 					};
 					id=14734;
 					type="vurtual_stretcher";
-					atlOffset=1.0062141;
+					atlOffset=1.0075188;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59609,7 +59655,7 @@ class Mission
 					};
 					id=14735;
 					type="vurtual_stretcher";
-					atlOffset=0.37337875;
+					atlOffset=0.37468338;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59667,7 +59713,7 @@ class Mission
 					};
 					id=14736;
 					type="vurtual_stretcher";
-					atlOffset=1.0008965;
+					atlOffset=1.0016899;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59713,7 +59759,98 @@ class Mission
 				};
 			};
 			id=14717;
-			atlOffset=1.1340866;
+			atlOffset=1.1348419;
+		};
+		class Item382
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13152.966,35.115002,16572.58};
+			};
+			id=14738;
+			type="ModuleCurator_F";
+			atlOffset=2.2888184e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="76561198243996582";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 	};
 };
