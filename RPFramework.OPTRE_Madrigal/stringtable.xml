@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="RPFramework">
+	<Package name="RPFMission">
+		<Container name="CORE">
+			<Key ID="STR_RPF_CORE_ONLOADNAME">
+				<Original>RPFramework 7.0.0</Original>
+				<English>RPFramework 7.0.0</English>
+				<French>RPFramework 7.0.0</French>
+				<Portuguese>RPFramework 7.0.0</Portuguese>
+			</Key>
+			
+			<Key ID="STR_RPF_CORE_CANTADDITEM">
+				<Original>Этот предмет не поместится в ваш инвентарь!</Original>
+				<English>Этот предмет не поместится в ваш инвентарь!</English>
+				<French>Этот предмет не поместится в ваш инвентарь!</French>
+				<Portuguese>Этот предмет не поместится в ваш инвентарь!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_GIVECASH_AMT">
+				<Original>Сумма</Original>
+				<English>Сумма</English>
+				<French>Сумма</French>
+				<Portuguese>Сумма</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_GIVECASH_GIVE">
+				<Original>Дать</Original>
+				<English>Дать</English>
+				<French>Дать</French>
+				<Portuguese>Дать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_TRUNK">
+				<Original>Ящик</Original>
+				<English>Ящик</English>
+				<French>Ящик</French>
+				<Portuguese>Ящик</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_TRUNK_STORE">
+				<Original>Оставить в ящике</Original>
+				<English>Оставить в ящике</English>
+				<French>Оставить в ящике</French>
+				<Portuguese>Оставить в ящике</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_TRUNK_TAKEOUT">
+				<Original>Вытащить</Original>
+				<English>Вытащить</English>
+				<French>Вытащить</French>
+				<Portuguese>Вытащить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_USEITEM_USE">
+				<Original>Использовать</Original>
+				<English>Использовать</English>
+				<French>Использовать</French>
+				<Portuguese>Использовать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_SURVIVALLOOP_NEEDADRINK">
+				<Original>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#1700E6'&gt;Тебе действительно нужно попить!&lt;/t&gt;</Original>
+				<English>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#1700E6'&gt;Тебе действительно нужно попить!&lt;/t&gt;</English>
+				<French>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#1700E6'&gt;Тебе действительно нужно попить!&lt;/t&gt;</French>
+				<Portuguese>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#1700E6'&gt;Тебе действительно нужно попить!&lt;/t&gt;</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_SURVIVALLOOP_DYINGOFTHIRST">
+				<Original>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#0F0094' size='1.2'&gt;Ты умираешь от жажды!!&lt;/t&gt;</Original>
+				<English>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#0F0094' size='1.2'&gt;Ты умираешь от жажды!!&lt;/t&gt;</English>
+				<French>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#0F0094' size='1.2'&gt;Ты умираешь от жажды!!&lt;/t&gt;</French>
+				<Portuguese>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#0F0094' size='1.2'&gt;Ты умираешь от жажды!!&lt;/t&gt;</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_SURVIVALLOOP_STARVING">
+				<Original>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#B80000'&gt;Вы голодаете!&lt;/t&gt;</Original>
+				<English>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#B80000'&gt;Вы голодаете!&lt;/t&gt;</English>
+				<French>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#B80000'&gt;Вы голодаете!&lt;/t&gt;</French>
+				<Portuguese>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#B80000'&gt;Вы голодаете!&lt;/t&gt;</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_SURVIVALLOOP_STARVINGIMMINENT">
+				<Original>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#750016' size='1.2'&gt;Голодная смерть неизбежна!!&lt;/t&gt;</Original>
+				<English>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#750016' size='1.2'&gt;Голодная смерть неизбежна!!&lt;/t&gt;</English>
+				<French>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#750016' size='1.2'&gt;Голодная смерть неизбежна!!&lt;/t&gt;</French>
+				<Portuguese>&lt;t color='#fff95b' size='1.3' align='center'&gt;Survival:&lt;br /&gt;&lt;/t&gt;&lt;t color='#750016' size='1.2'&gt;Голодная смерть неизбежна!!&lt;/t&gt;</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_CARKEY">
+				<Original>Использовать Ключ</Original>
+				<English>Использовать Ключ</English>
+				<French>Использовать Ключ</French>
+				<Portuguese>Использовать Ключ</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_GIVECASH">
+				<Original>Дать наличные</Original>
+				<English>Дать наличные</English>
+				<French>Дать наличные</French>
+				<Portuguese>Дать наличные</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_UNHOLSTER">
+				<Original>Достать оружие</Original>
+				<English>Достать оружие</English>
+				<French>Достать оружие</French>
+				<Portuguese>Достать оружие</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_HOLSTER">
+				<Original>Спрятать оружие</Original>
+				<English>Спрятать оружие</English>
+				<French>Спрятать оружие</French>
+				<Portuguese>Спрятать оружие</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_CUFF">
+				<Original>Наручники</Original>
+				<English>Наручникиf</English>
+				<French>Наручники</French>
+				<Portuguese>Наручники</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_OPENCUFFS">
+				<Original>Открыть наручники</Original>
+				<English>Открыть наручники</English>
+				<French>Открыть наручники</French>
+				<Portuguese>Открыть наручники</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_ESCORT">
+				<Original>Эскорт</Original>
+				<English>Эскорт</English>
+				<French>Эскорт</French>
+				<Portuguese>Эскорт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_LETGO">
+				<Original>Отпустить</Original>
+				<English>Отпустить</English>
+				<French>Отпустить</French>
+				<Portuguese>Отпустить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_FORCEINCAR">
+				<Original>Усадить в машину</Original>
+				<English>Усадить в машину</English>
+				<French>Усадить в машину</French>
+				<Portuguese>Усадить в машину</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_PULLOUT">
+				<Original>Вытащить</Original>
+				<English>Вытащить</English>
+				<French>Вытащить</French>
+				<Portuguese>Вытащить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_SEARCH">
+				<Original>Поиск</Original>
+				<English>Поиск</English>
+				<French>Поиск</French>
+				<Portuguese>Поиск</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_PICKUP">
+				<Original>Подобрать</Original>
+				<English>Подобрать</English>
+				<French>Подобрать</French>
+				<Portuguese>Подобрать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_TRUNK">
+				<Original>Ящик</Original>
+				<English>Ящик</English>
+				<French>Ящик</French>
+				<Portuguese>Ящик</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_USEITEM">
+				<Original>Использовать предмет</Original>
+				<English>Использовать предмет</English>
+				<French>Использовать предмет</French>
+				<Portuguese>Использовать предмет</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_TAKEMONEY">
+				<Original>Взять деньги</Original>
+				<English>Взять деньги</English>
+				<French>Взять деньги</French>
+				<Portuguese>Взять деньги</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_GOONDUTY">
+				<Original>Заступить на дежурство</Original>
+				<English>Заступить на дежурство</English>
+				<French>Заступить на дежурство</French>
+				<Portuguese>Заступить на дежурство</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_GOOFFDUTY">
+				<Original>Уйти с дежурства</Original>
+				<English>Уйти с дежурства</English>
+				<French>Уйти с дежурства</French>
+				<Portuguese>Уйти с дежурства</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_MONEY_GAVEYOU">
+				<Original>%1 дал вам %2 $</Original>
+				<English>%1 дал вам %2 $</English>
+				<French>%1 дал вам %2 $</French>
+				<Portuguese>%1 дал вам %2 $</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_MONEY_NOTENOUGHCASH">
+				<Original>У вас недочтаточно много наличных!</Original>
+				<English>У вас недочтаточно много наличных!</English>
+				<French>У вас недочтаточно много наличных!</French>
+				<Portuguese>У вас недочтаточно много наличных!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_MONEY_GREATERTHANZERO">
+				<Original>Сумма должна быть больше $0!</Original>
+				<English>Сумма должна быть больше $0!</English>
+				<French>Сумма должна быть больше $0!</French>
+				<Portuguese>Сумма должна быть больше $0!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_POLICE_SEARCHEDHAS">
+				<Original>Искомый игрок:&lt;br/&gt;%1</Original>
+				<English>Искомый игрок:&lt;br/&gt;%1</English>
+				<French>Искомый игрок:&lt;br/&gt;%1</French>
+				<Portuguese>Искомый игрок:&lt;br/&gt;%1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_TRUNK_TITLE">
+				<Original>Инвентарь - %1/%2</Original>
+				<English>Инвентарь - %1/%2</English>
+				<French>Инвентарь - %1/%2</French>
+				<Portuguese>Инвентарь - %1/%2</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_VEHICLE_CANTUSEKEY">
+				<Original>Ваш ключ не может открыть этот транспорт.</Original>
+				<English>Ваш ключ не может открыть этот транспорт.</English>
+				<French>Ваш ключ не может открыть этот транспорт.</French>
+				<Portuguese>Ваш ключ не может открыть этот транспорт.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_BACK">
+				<Original>Назад</Original>
+				<English>Назад</English>
+				<French>Назад</French>
+				<Portuguese>Назад</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_CAT_OTHER">
+				<Original>Другие</Original>
+				<English>Другие</English>
+				<French>Другие</French>
+				<Portuguese>Другие</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_CAT_PLAYER">
+				<Original>Игрок</Original>
+				<English>Игрок</English>
+				<French>Игрок</French>
+				<Portuguese>Игрок</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_CAT_VEHICLES">
+				<Original>Транспор</Original>
+				<English>Транспор</English>
+				<French>Транспор</French>
+				<Portuguese>Транспор</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_CORE_INTERACTION_CAT_INTERACTION">
+				<Original>Взаимодействие</Original>
+				<English>Взаимодействие</English>
+				<French>Взаимодействие</French>
+				<Portuguese>Взаимодействие</Portuguese>
+			</Key>
+		</Container>
+		<Container name="ATM">
+			<Key ID="STR_RPF_MODULES_ATM_WAIT">
+				<Original>Сначала вам нужно подождать, пока банкомат обработает вашу последнюю транзакцию.</Original>
+				<English>Сначала вам нужно подождать, пока банкомат обработает вашу последнюю транзакцию.</English>
+				<French>Сначала вам нужно подождать, пока банкомат обработает вашу последнюю транзакцию.</French>
+				<Portuguese>Сначала вам нужно подождать, пока банкомат обработает вашу последнюю транзакцию.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_TITLEACC">
+				<Original>Банкомат # Счет:%1</Original>
+				<English>Банкомат # Счет:%1</English>
+				<French>Банкомат # Счет:%1</French>
+				<Portuguese>Банкомат # Счет:%1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_TITLE">
+				<Original>Банкомат</Original>
+				<English>Банкомат</English>
+				<French>Банкомат</French>
+				<Portuguese>Банкомат</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_BALANCE">
+				<Original>Баланс</Original>
+				<English>Баланс</English>
+				<French>Баланс</French>
+				<Portuguese>Баланс</Portuguese>
+
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_CASH">
+				<Original>Наличные деньги</Original>
+				<English>Наличные деньги</English>
+				<French>Наличные деньги</French>
+				<Portuguese>Наличные деньги</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_AMOUNT">
+				<Original>Сумма</Original>
+				<English>Сумма</English>
+				<French>Сумма</French>
+				<Portuguese>Сумма</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_WITHDRAW">
+				<Original>Снять</Original>
+				<English>Снять</English>
+				<French>Снять</French>
+				<Portuguese>Снять</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_DEPOSIT">
+				<Original>Депозит</Original>
+				<English>Депозит</English>
+				<French>Депозит</French>
+				<Portuguese>Депозит</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_SENDMONEY">
+				<Original>Послать деньги</Original>
+				<English>Послать деньги</English>
+				<French>Послать деньги</French>
+				<Portuguese>Послать деньги</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_ACCOUNT">
+				<Original>Счет</Original>
+				<English>Счет</English>
+				<French>Счет</French>
+				<Portuguese>Счет</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_OPEN">
+				<Original>Открыть банкомат</Original>
+				<English>Открыть банкомат</English>
+				<French>Открыть банкомат</French>
+				<Portuguese>Открыть банкомат</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_NOTENOUGHBALANCE">
+				<Original>Недостаточный баланс!</Original>
+				<English>Недостаточный баланс!</English>
+				<French>Недостаточный баланс!</French>
+				<Portuguese>Недостаточный баланс!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_WITHDRAWALGTZ">
+				<Original>Сумма вывода должна быть больше $0!</Original>
+				<English>Сумма вывода должна быть больше $0!</English>
+				<French>Сумма вывода должна быть больше $0!</French>
+				<Portuguese>Сумма вывода должна быть больше $0!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_CANTSENDYOURSELF">
+				<Original>Вы не можете отправить деньги себе</Original>
+				<English>Вы не можете отправить деньги себе</English>
+				<French>Вы не можете отправить деньги себе</French>
+				<Portuguese>Вы не можете отправить деньги себе</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_INVALIDAMOUNT">
+				<Original>Неверная сумма!</Original>
+				<English>Неверная сумма!</English>
+				<French>Неверная сумма!</French>
+				<Portuguese>Неверная сумма!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_NOTENOUGHCASH">
+				<Original>Не хватает денег!</Original>
+				<English>Не хватает денег!</English>
+				<French>Не хватает денег!</French>
+				<Portuguese>Не хватает денег!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_ATM_DEPOSITGTZ">
+				<Original>Сумма вклада должна быть больше $0!</Original>
+				<English>Сумма вклада должна быть больше $0!</English>
+				<French>Сумма вклада должна быть больше $0!</French>
+				<Portuguese>Сумма вклада должна быть больше $0!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_ATM_TRANSFER_RECEIVED">
+				<Original>Вы получили деньги!</Original>
+				<English>Вы получили деньги!</English>
+				<French>Вы получили деньги!</French>
+				<Portuguese>Вы получили деньги!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_ATM_TRANSFER_COMPLETED">
+				<Original>Перевод завершен!</Original>
+				<English>Перевод завершен!</English>
+				<French>Перевод завершен!</French>
+				<Portuguese>Перевод завершен!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_ATM_TRANSFER_NOTENOUGHBANK">
+				<Original>На вашем банковском счету недостаточно денег!</Original>
+				<English>На вашем банковском счету недостаточно денег!</English>
+				<French>На вашем банковском счету недостаточно денег!</French>
+				<Portuguese>На вашем банковском счету недостаточно денег!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_ATM_TRANSFER_ACCNOTFOUND">
+				<Original>Счет не найден!</Original>
+				<English>Счет не найден!</English>
+				<French>Счет не найден!</French>
+				<Portuguese>Счет не найден!</Portuguese>
+			</Key>
+		</Container>
+		<Container name="BASICMEDICAL">
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_REVIVE">
+				<Original>Возродить</Original>
+				<English>Возродить</English>
+				<French>Возродить</French>
+				<Portuguese>Возродить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_CARRY">
+				<Original>Нести</Original>
+				<English>Нести</English>
+				<French>Нести</French>
+				<Portuguese>Нести</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_PUTINCAR">
+				<Original>Положить в автомобиль</Original>
+				<English>Положить в автомобиль</English>
+				<French>Положить в автомобиль</French>
+				<Portuguese>Положить в автомобиль</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_PULLOUT">
+				<Original>Вытащить</Original>
+				<English>Вытащить</English>
+				<French>Вытащить</French>
+				<Portuguese>Вытащить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_UNCONSCPERS">
+				<Original>[Медик] Человек без сознания</Original>
+				<English>[Медик] Человек без сознания</English>
+				<French>[Медик] Человек без сознания</French>
+				<Portuguese>[Медик] Человек без сознания</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_UNCONSC">
+				<Original>Кто-то только что потерял сознание! Проверьте свою карту!</Original>
+				<English>Кто-то только что потерял сознание! Проверьте свою карту!</English>
+				<French>Кто-то только что потерял сознание! Проверьте свою карту!</French>
+				<Portuguese>Кто-то только что потерял сознание! Проверьте свою карту!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_BLEEDINGOUT">
+				<Original>Вы истечете кровью через %1 секунд!</Original>
+				<English>Вы истечете кровью через %1 секунд!</English>
+				<French>Вы истечете кровью через %1 секунд!</French>
+				<Portuguese>Вы истечете кровью через %1 секунд!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_BASICMEDICAL_MEDICAL">
+				<Original>Медицинский</Original>
+				<English>Medical</English>
+				<French>Medical</French>
+				<Portuguese>Médico</Portuguese>
+			</Key>
+		</Container>
+		<Container name="DELIVERY">
+			<Key ID="STR_RPF_MODULES_DELIVERY_TITLE">
+				<Original>Доставка:</Original>
+				<English>Доставка:</English>
+				<French>Доставка:</French>
+				<Portuguese>Доставка:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_ITEMSLEFT">
+				<Original>Осталось доставить:</Original>
+				<English>Осталось доставить:</English>
+				<French>Осталось доставить:</French>
+				<Portuguese>Осталось доставить:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_TAKEITEM">
+				<Original>Взять предмет</Original>
+				<English>Взять предмет</English>
+				<French>Взять предмет</French>
+				<Portuguese>Взять предмет</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_REWARD">
+				<Original>Награда:</Original>
+				<English>Награда:</English>
+				<French>Награда:</French>
+				<Portuguese>Награда:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_TAKETASK">
+				<Original>Взять задание</Original>
+				<English>Взять задание</English>
+				<French>Взять задание</French>
+				<Portuguese>Взять задание</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_STATUS">
+				<Original>Статус:</Original>
+				<English>Статус:</English>
+				<French>Статус:</French>
+				<Portuguese>Статус:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_DELIVER">
+				<Original>Доставлять</Original>
+				<English>Доставлять</English>
+				<French>Доставлять</French>
+				<Portuguese>Доставлять</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_ITEMSLEFTHINT">
+				<Original>Осталось доставить: %1/%2</Original>
+				<English>Осталось доставить: %1/%2</English>
+				<French>Осталось доставить: %1/%2</French>
+				<Portuguese>Осталось доставить: %1/%2</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_ITEMSTAKEN">
+				<Original>Вы забрали все предметы, теперь доставьте их в отмеченное место!</Original>
+				<English>Вы забрали все предметы, теперь доставьте их в отмеченное место!</English>
+				<French>Вы забрали все предметы, теперь доставьте их в отмеченное место!</French>
+				<Portuguese>Вы забрали все предметы, теперь доставьте их в отмеченное место!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_ITEMSDELIVERED">
+				<Original>Предметы доставлены: %1/%2</Original>
+				<English>Предметы доставлены: %1/%2</English>
+				<French>Предметы доставлены: %1/%2</French>
+				<Portuguese>Предметы доставлены: %1/%2</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_DELIVERITEMS">
+				<Original>Доставьте предметы</Original>
+				<English>Доставьте предметы</English>
+				<French>Доставьте предметы</French>
+				<Portuguese>Доставьте предметы</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_DP">
+				<Original>Пункт доставки</Original>
+				<English>Пункт доставки</English>
+				<French>Пункт доставки</French>
+				<Portuguese>Пункт доставки</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_TASKS">
+				<Original>Задачи</Original>
+				<English>Задачи</English>
+				<French>Задачи</French>
+				<Portuguese>Задачи</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_DELIVERY_TAKEITEMS">
+				<Original>Взять предметы</Original>
+				<English>Взять предметы</English>
+				<French>Взять предметы</French>
+				<Portuguese>Взять предметы</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_DELIVERY_DP">
+				<Original>Пункт доставки</Original>
+				<English>Пункт доставки</English>
+				<Portuguese>Пункт доставки</Portuguese>
+			</Key>
+		</Container>
+		<Container name="EXAMPLE">
+			<Key ID="STR_RPF_MODULES_EXAMPLE_HINT">
+				<Original>Этот пример модуля можно отключить в mission>functions>modules>CONFIG>fn_initModules.sqf, удалив его из массива модулей!</Original>
+				<English>Этот пример модуля можно отключить в mission>functions>modules>CONFIG>fn_initModules.sqf, удалив его из массива модулей!</English>
+				<French>Этот пример модуля можно отключить в mission>functions>modules>CONFIG>fn_initModules.sqf, удалив его из массива модулей!</French>
+				<Portuguese>Этот пример модуля можно отключить в mission>functions>modules>CONFIG>fn_initModules.sqf, удалив его из массива модулей!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_EXAMPLE_MENUACT">
+				<Original>Образец</Original>
+				<English>Образец</English>
+				<French>Образец</French>
+				<Portuguese>Образец</Portuguese>
+			</Key>
+		</Container>
+		<Container name="FARMING">
+			<Key ID="STR_RPF_MODULES_FARMING_CANTPLANT">
+				<Original>Нельзя сажать здесь</Original>
+				<English>Нельзя сажать здесь</English>
+				<French>Нельзя сажать здесь</French>
+				<Portuguese>Нельзя сажать здесь</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_FARMING_DESTROY">
+				<Original>Уничтожить растение</Original>
+				<English>Уничтожить растение</English>
+				<French>Уничтожить растение</French>
+				<Portuguese>Уничтожить растение</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_FARMING_HARVEST">
+				<Original>Собрать урожай</Original>
+				<English>Собрать урожай</English>
+				<French>Собрать урожай</French>
+				<Portuguese>Собрать урожай</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_FARMING_NOTFULLYGROWN">
+				<Original>Это растение еще не полностью выросло!</Original>
+				<English>Это растение еще не полностью выросло!</English>
+				<French>Это растение еще не полностью выросло!</French>
+				<Portuguese>Это растение еще не полностью выросло!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_FARMING_TOOCLOSE">
+				<Original>Нельзя сажать новое растение так близко к другому!</Original>
+				<English>You can't plant a new plant so close to another one!</English>
+				<French>You can't plant a new plant so close to another one!</French>
+				<Portuguese>Você não pode plantar uma nova planta perto de uma antiga!</Portuguese>
+			</Key>
+		</Container>
+		<Container name="FISHING">
+			<Key ID="STR_RPF_MODULES_FISHING_FNET">
+				<Original>Рыболовная сеть</Original>
+				<English>Рыболовная сеть</English>
+				<French>Рыболовная сеть</French>
+				<Portuguese>Рыболовная сеть</Portuguese>
+			</Key>
+		</Container>
+		<Container name="GARAGE">
+			<Key ID="STR_RPF_MODULES_GARAGE_TITLE">
+				<Original>Гараж</Original>
+				<English>Гараж</English>
+				<French>Гараж</French>
+				<Portuguese>Гараж</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_GARAGE_FETCHCAR">
+				<Original>Взять машину</Original>
+				<English>Взять машину</English>
+				<French>Взять машину</French>
+				<Portuguese>Взять машину</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_GARAGE_BLOCKING">
+				<Original>Что-то блокирует гараж.</Original>
+				<English>Что-то блокирует гараж.</English>
+				<French>Что-то блокирует гараж.</French>
+				<Portuguese>Что-то блокирует гараж.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_GARAGE_STOREVEHICLE">
+				<Original>Припарковать транспорт</Original>
+				<English>Припарковать транспорт</English>
+				<French>Припарковать транспорт</French>
+				<Portuguese>Припарковать транспорт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_GARAGE_OPENGARAGE">
+				<Original>Открыть гараж</Original>
+				<English>Открыть гараж</English>
+				<French>Открыть гараж</French>
+				<Portuguese>Открыть гараж</Portuguese>
+			</Key>
+		</Container>
+		<Container name="HOUSING">
+			<Key ID="STR_RPF_MODULES_HOUSING_FORSALE">
+				<Original>На продажу:</Original>
+				<English>На продажу:</English>
+				<French>На продажу:</French>
+				<Portuguese>На продажу:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_NO">
+				<Original>Нет</Original>
+				<English>Нет</English>
+				<French>Нет</French>
+				<Portuguese>Цена:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_PRICE">
+				<Original>Цена:</Original>
+				<English>Цена:</English>
+				<French>Цена:</French>
+				<Portuguese>Цена:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_BUY">
+				<Original>Купить</Original>
+				<English>Купить</English>
+				<French>Купить</French>
+				<Portuguese>Купить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_NOTFORSALE">
+				<Original>В настоящее время не продается</Original>
+				<English>В настоящее время не продается</English>
+				<French>В настоящее время не продается</French>
+				<Portuguese>В настоящее время не продается</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_OPENCONTAINER">
+ 				<Original>Открыть контейнер</Original>
+ 				<English>Открыть контейнер</English>
+ 			</Key>
+ 			<Key ID="STR_RPF_MODULES_HOUSING_OPENTRUNK">
+ 				<Original>Открыть сундук</Original>
+ 				<English>Открыть сундук</English>
+ 			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_PRICEMANAGE">
+				<Original>Цена</Original>
+				<English>Цена</English>
+				<French>Цена</French>
+				<Portuguese>Цена</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_SELL">
+				<Original>Продать</Original>
+				<English>Продать</English>
+				<French>Продать</French>
+				<Portuguese>Продать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_STOPSELLING">
+				<Original>Прекратить продажу</Original>
+				<English>Прекратить продажу</English>
+				<French>Прекратить продажу</French>
+				<Portuguese>Прекратить продажу</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_SETPRICE">
+				<Original>Установить цену</Original>
+				<English>Установить цену</English>
+				<French>Установить цену</French>
+				<Portuguese>Установить цену</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_NOTENOUGHBANK">
+				<Original>Недостаточно денег на вашем банковском счету</Original>
+				<English>Недостаточно денег на вашем банковском счету</English>
+				<French>Недостаточно денег на вашем банковском счету</French>
+				<Portuguese>Недостаточно денег на вашем банковском счету</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_WAIT">
+				<Original>Подождите несколько секунд, пожалуйста...</Original>
+				<English>Подождите несколько секунд, пожалуйста...</English>
+				<French>Подождите несколько секунд, пожалуйста...</French>
+				<Portuguese>Подождите несколько секунд, пожалуйста...</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_MANAGESELL">
+				<Original>Управление Продажей</Original>
+				<English>Manage Sell</English>
+				<French>Gérer la vente</French>
+				<Portuguese>Gerenciar Venda</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_LOCK">
+				<Original>Закрыть</Original>
+				<English>Закрыть</English>
+				<French>Закрыть</French>
+				<Portuguese>Закрыть</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_UNLOCK">
+				<Original>Открыть</Original>
+				<English>Открыть</English>
+				<French>Открыть</French>
+				<Portuguese>Открыть</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_HINFO">
+				<Original>Информация О Доме</Original>
+				<English>Информация О Доме</English>
+				<French>Информация О Доме</French>
+				<Portuguese>Информация О Доме</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_INVALIDPRICE">
+				<Original>Неверная цена!</Original>
+				<English>Неверная цена!</English>
+				<French>Неверная цена!</French>
+				<Portuguese>Неверная цена!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_HOUSING_CURFORSALE">
+				<Original>В настоящее время продается</Original>
+				<English>В настоящее время продается</English>
+				<French>В настоящее время продается</French>
+				<Portuguese>В настоящее время продается</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_HOUSING_WELCOME">
+				<Original>Добро пожаловать в ваш новый дом!</Original>
+				<English>Добро пожаловать в ваш новый дом!</English>
+				<French>Добро пожаловать в ваш новый дом!</French>
+				<Portuguese>Добро пожаловать в ваш новый дом!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_HOUSING_RECEIVEDMONEY">
+				<Original>Вы получили деньги!</Original>
+				<English>Вы получили деньги!</English>
+				<French>Вы получили деньги!</French>
+				<Portuguese>Вы получили деньги!</Portuguese>
+			</Key>
+		</Container>
+		<Container name="JAIL">
+			<Key ID="STR_RPF_MODULES_JAIL_FREE">
+				<Original>Бесплатный</Original>
+				<English>Бесплатный</English>
+				<French>Бесплатный</French>
+				<Portuguese>Бесплатный</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_SECURELOCK">
+				<Original>Безопасный Замок Тюрьмы</Original>
+				<English>Безопасный Замок Тюрьмы</English>
+				<French>Безопасный Замок Тюрьмы</French>
+				<Portuguese>Безопасный Замок Тюрьмы</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_HACK">
+				<Original>Взлом</Original>
+				<English>Взлом</English>
+				<French>Взлом</French>
+				<Portuguese>Взлом</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_TIMEMINS">
+				<Original>Время (Мин):</Original>
+				<English>Время (Мин):</English>
+				<French>Время (Мин):</French>
+				<Portuguese>Время (Мин):</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_REASON">
+				<Original>Причина:</Original>
+				<English>Причина:</English>
+				<French>Причина:</French>
+				<Portuguese>Причина:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_CONFIRM">
+				<Original>Подтверждать</Original>
+				<English>Подтверждать</English>
+				<French>Подтверждать</French>
+				<Portuguese>Подтверждать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_TIMELEFT">
+				<Original>Время, оставшееся в тюрьме: %1 минут. Причина: %2</Original>
+				<English>Время, оставшееся в тюрьме: %1 минут. Причина: %2</English>
+				<French>Время, оставшееся в тюрьме: %1 минут: %1 minutes. Причина: %2</French>
+				<Portuguese>Время, оставшееся в тюрьме: %1 минут. Причина: %2</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_HACKINGONE">
+				<Original>Взлом.</Original>
+				<English>Взлом.</English>
+				<French>Взлом.</French>
+				<Portuguese>Взлом.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_HACKINGTWO">
+				<Original>Взлом..</Original>
+				<English>Взлом..</English>
+				<French>Взлом..</French>
+				<Portuguese>Взлом..</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_HACKINGTHREE">
+				<Original>Взлом...</Original>
+				<English>Взлом...</English>
+				<French>Взлом...</French>
+				<Portuguese>Взлом...</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_SUCCESS">
+				<Original>Успех!</Original>
+				<English>Успех!</English>
+				<French>Успех!</French>
+				<Portuguese>Успех!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_ERROR">
+				<Original>Ошибка</Original>
+				<English>Ошибка</English>
+				<French>Ошибка</French>
+				<Portuguese>Ошибка</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_JBALERT">
+				<Original>&lt;t color='#4265FF' size='1.9' align='center'&gt;DISPATCH:&lt;br /&gt;&lt;/t&gt;&lt;t color='#6682FF' size='1.5'&gt;Происходит побег!&lt;/t&gt;</Original>
+				<English>&lt;t color='#4265FF' size='1.9' align='center'&gt;DISPATCH:&lt;br /&gt;&lt;/t&gt;&lt;t color='#6682FF' size='1.5'&gt;Происходит побег!&lt;/t&gt;</English>
+				<French>&lt;t color='#4265FF' size='1.9' align='center'&gt;DISPATCH:&lt;br /&gt;&lt;/t&gt;&lt;t color='#6682FF' size='1.5'&gt;Происходит побег!&lt;/t&gt;</French>
+				<Portuguese>&lt;t color='#4265FF' size='1.9' align='center'&gt;DESPACHO:&lt;br /&gt;&lt;/t&gt;&lt;t color='#6682FF' size='1.5'&gt;Происходит побег!&lt;/t&gt;</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_ARREST">
+				<Original>Арест</Original>
+				<English>Арест</English>
+				<French>Арест</French>
+				<Portuguese>Арест</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_BREAKOUT">
+				<Original>Прорыв</Original>
+				<English>Прорыв</English>
+				<French>Прорыв</French>
+				<Portuguese>Прорыв</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_JAIL_FREEPRISONERS">
+				<Original>Свободные заключенные</Original>
+				<English>Свободные заключенные</English>
+				<French>Свободные заключенные</French>
+				<Portuguese>Свободные заключенные</Portuguese>
+			</Key>
+		</Container>
+		<Container name="METHLAB">
+			<Key ID="STR_RPF_MODULES_METHLAB_CHEMTABLE">
+				<Original>Таблица Химии</Original>
+				<English>Таблица Химии</English>
+				<French>Таблица Химии.</French>
+				<Portuguese>Таблица Химии</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_COOK">
+				<Original>Готовить</Original>
+				<English>Готовить</English>
+				<French>Готовить</French>
+				<Portuguese>Готовить.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_ABORT">
+				<Original>Аборт</Original>
+				<English>Аборт</English>
+				<French>Аборт</French>
+				<Portuguese>Аборт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_ADDITEM">
+				<Original>добавить элемент &gt;&gt;&gt;</Original>
+				<English>добавить элемент &gt;&gt;&gt;</English>
+				<French>добавить элемент &gt;&gt;&gt;</French>
+				<Portuguese>добавить элемент &gt;&gt;&gt;</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_REMOVEITEM">
+				<Original>&lt;&lt;&lt; Удалить элементы</Original>
+				<English>&lt;&lt;&lt; Удалить элементы</English>
+				<French>&lt;&lt;&lt; Удалить элементы</French>
+				<Portuguese>&lt;&lt;&lt; Удалить элементы</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_PRODUCTS">
+				<Original>Средства</Original>
+				<English>Средства</English>
+				<French>Средства</French>
+				<Portuguese>Средства</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_YOURITEMS">
+				<Original>Ваши предметы</Original>
+				<English>Ваши предметы</English>
+				<French>Ваши предметы</French>
+				<Portuguese>Ваши предметы</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_LABSITEMS">
+				<Original>Предметы мет лаборатории</Original>
+				<English>Предметы мет лаборатории</English>
+				<French>Предметы мет лаборатории</French>
+				<Portuguese>Предметы мет лаборатории</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_TAKEPRODUCT">
+				<Original>Принять Продукт</Original>
+				<English>Принять Продукт</English>
+				<French>Принять Продукт</French>
+				<Portuguese>Принять Продукт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_OPENLAB">
+				<Original>Открыть Лабораторию</Original>
+				<English>Открыть Лабораторию</English>
+				<French>Открыть Лабораторию</French>
+				<Portuguese>Открыть Лабораторию</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_STATUS_NTA">
+				<Original>Статус: ничего добавить!</Original>
+				<English>Статус: ничего добавить!</English>
+				<French>Статус: ничего добавить!</French>
+				<Portuguese>Статус: ничего добавить!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_STATUS_NEI">
+				<Original>Статус: недостаточно ингредиентов!</Original>
+				<English>Статус: недостаточно ингредиентов!</English>
+				<French>Статус: недостаточно ингредиентов!</French>
+				<Portuguese>Статус: недостаточно ингредиентов!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_STATUS_NTR">
+				<Original>Статус: нечего удалять!</Original>
+				<English>Статус: нечего удалять!</English>
+				<French>Статус: нечего удалять!!</French>
+				<Portuguese>Статус: нечего удалять!!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_STATUS_NTT">
+				<Original>Статус: нечего брать!</Original>
+				<English>Статус: нечего брать!</English>
+				<French>Статус: нечего брать!</French>
+				<Portuguese>Статус: нечего брать!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_STATUS_READY">
+				<Original>Состояние: Готово</Original>
+				<English>Состояние: Готово</English>
+				<French>Состояние: Готово</French>
+				<Portuguese>Состояние: Готово!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_SUCCESS">
+				<Original>Успех!</Original>
+				<English>Успех!</English>
+				<French>Успех!</French>
+				<Portuguese>Успех!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_APPLYINGHEAT">
+				<Original>You're applying heat...</Original>
+				<English>You're applying heat...</English>
+				<French>Vous chauffez...</French>
+				<Portuguese>Você está aplicando mais calor...</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_COOKING">
+				<Original>Кухонный</Original>
+				<English>Кухонный</English>
+				<French>Кухонный</French>
+				<Portuguese>Кухонный</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_MSGONE">
+				<Original>Вы случайно подтолкнуть колбу достаточно, чтобы испортить процесс приготовления.</Original>
+				<English>Вы случайно подтолкнуть колбу достаточно, чтобы испортить процесс приготовления.</English>
+				<French>Вы случайно подтолкнуть колбу достаточно, чтобы испортить процесс приготовления.</French>
+				<Portuguese>Вы случайно подтолкнуть колбу достаточно, чтобы испортить процесс приготовления.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_MSGTWO">
+				<Original>Некоторая грязь попала в колбу, и она начинает выделять дым и пламя.</Original>
+				<English>Некоторая грязь попала в колбу, и она начинает выделять дым и пламя.</English>
+				<French>Некоторая грязь попала в колбу, и она начинает выделять дым и пламя.</French>
+				<Portuguese>Некоторая грязь попала в колбу, и она начинает выделять дым и пламя.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_MSGTHREE">
+				<Original>Применение тепла не запускает химическую реакцию, а только сжигает ингредиенты. Похоже на несчастливую химическую ошибку.</Original>
+				<English>Применение тепла не запускает химическую реакцию, а только сжигает ингредиенты. Похоже на несчастливую химическую ошибку.</English>
+				<French>Применение тепла не запускает химическую реакцию, а только сжигает ингредиенты. Похоже на несчастливую химическую ошибку.</French>
+				<Portuguese>Применение тепла не запускает химическую реакцию, а только сжигает ингредиенты. Похоже на несчастливую химическую ошибку.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_CHECKMSGONE">
+				<Original>Вам удалось произвести какую-то зеленую жидкость, как вещество, которое сейчас вот-вот загорится. Это, конечно, не то, что вы хотели.</Original>
+				<English>Вам удалось произвести какую-то зеленую жидкость, как вещество, которое сейчас вот-вот загорится. Это, конечно, не то, что вы хотели.</English>
+				<French>Вам удалось произвести какую-то зеленую жидкость, как вещество, которое сейчас вот-вот загорится. Это, конечно, не то, что вы хотели.</French>
+				<Portuguese>Вам удалось произвести какую-то зеленую жидкость, как вещество, которое сейчас вот-вот загорится. Это, конечно, не то, что вы хотели.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_CHECKMSGTWO">
+				<Original>Зеленый дым начинает выходить из колбы для приготовления пищи, и в колбе остается темно-зеленая слизь. Это, конечно, не то, что вы хотели..</Original>
+				<English>Зеленый дым начинает выходить из колбы для приготовления пищи, и в колбе остается темно-зеленая слизь. Это, конечно, не то, что вы хотели.</English>
+				<French>Зеленый дым начинает выходить из колбы для приготовления пищи, и в колбе остается темно-зеленая слизь. Это, конечно, не то, что вы хотели.</French>
+				<Portuguese>Зеленый дым начинает выходить из колбы для приготовления пищи, и в колбе остается темно-зеленая слизь. Это, конечно, не то, что вы хотели.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_METHLAB_CHECKMSGTHREE">
+				<Original>Вы можете заметить, что огонь и зеленый дым выходят из колбы для приготовления пищи, а в колбе остается некоторое сожженное вещество. Это, конечно, не то, что вы хотели.</Original>
+				<English>Вы можете заметить, что огонь и зеленый дым выходят из колбы для приготовления пищи, а в колбе остается некоторое сожженное вещество. Это, конечно, не то, что вы хотели.</English>
+				<French>Вы можете заметить, что огонь и зеленый дым выходят из колбы для приготовления пищи, а в колбе остается некоторое сожженное вещество. Это, конечно, не то, что вы хотели.</French>
+				<Portuguese>Вы можете заметить, что огонь и зеленый дым выходят из колбы для приготовления пищи, а в колбе остается некоторое сожженное вещество. Это, конечно, не то, что вы хотели.</Portuguese>
+			</Key>
+		</Container>
+		<Container name="MINING">
+			<Key ID="STR_RPF_MODULES_MINING_PROCESS">
+				<Original>Процесс</Original>
+				<English>Процесс</English>
+				<French>Процесс</French>
+				<Portuguese>Процесс</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_MINING_UNEQUIP">
+				<Original>Болгаркой Можно Снимать </Original>
+				<English>Болгаркой Можно Снимать </English>
+				<French>Болгаркой Можно Снимать </French>
+				<Portuguese>Болгаркой Можно Снимать </Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_MINING_GRIND">
+				<Original>Молоть</Original>
+				<English>Молоть</English>
+				<French>Молоть</French>
+				<Portuguese>Молоть</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_MINING_PROCESSING">
+				<Original>Обработка</Original>
+				<English>Обработка</English>
+				<French>Обработка</French>
+				<Portuguese>Обработка</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_MINING_YOURMINERALS">
+				<Original>У вас есть %1 минералы</Original>
+				<English>У вас есть %1 минералы</English>
+				<French>У вас есть %1 минералы</French>
+				<Portuguese>У вас есть %1 минералы</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_MINING_YOUGOT">
+				<Original>У тебя %1</Original>
+				<English>У тебя %1</English>
+				<French>У тебяe %1</French>
+				<Portuguese>У тебя %1</Portuguese>
+			</Key>
+		</Container>
+		<Container name="PHONE">
+			<Key ID="STR_RPF_MODULES_PHONE_FROM">
+				<Original>От:</Original>
+				<English>От:</English>
+				<French>От:</French>
+				<Portuguese>От:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_COMPOSE">
+				<Original>Написать сообщение</Original>
+				<English>Написать сообщение</English>
+				<French>Написать сообщение</French>
+				<Portuguese>Написать сообщение</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_SEND">
+				<Original>Посылать</Original>
+				<English>Посылать</English>
+				<French>Посылать</French>
+				<Portuguese>Посылать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_MSGS">
+				<Original>Сообщения</Original>
+				<English>Сообщения</English>
+				<French>Сообщения</French>
+				<Portuguese>Сообщения</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_ADDUPDATECONT">
+				<Original>Добавить / Обновить Контакт</Original>
+				<English>Добавить / Обновить Контакт</English>
+				<French>Добавить / Обновить Контакт</French>
+				<Portuguese>Добавить / Обновить Контакт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_NAME">
+				<Original>Имя</Original>
+				<English>Имя</English>
+				<French>Имя</French>
+				<Portuguese>Имя</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_NUMBER">
+				<Original>Число</Original>
+				<English>Число</English>
+				<French>Число</French>
+				<Portuguese>Число</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_CONTACT">
+				<Original>Контакт</Original>
+				<English>Контакт</English>
+				<French>Контакт</French>
+				<Portuguese>Контакт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_SENDANON">
+				<Original>Отправить Анонимно</Original>
+				<English>Отправить Анонимно</English>
+				<French>Отправить Анонимно</French>
+				<Portuguese>Отправить Анонимно</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_MSGSENT">
+				<Original>Сообщение отправлено.</Original>
+				<English>Сообщение отправлено.</English>
+				<French>Сообщение отправлено</French>
+				<Portuguese>Сообщение отправлено.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_NNOTAVAIL">
+				<Original>Вы не можете связаться с этим номером прямо сейчас</Original>
+				<English>Вы не можете связаться с этим номером прямо сейчас</English>
+				<French>Вы не можете связаться с этим номером прямо сейчас</French>
+				<Portuguese>Вы не можете связаться с этим номером прямо сейчас.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_NEWEMERGMSG">
+				<Original>Новое Сообщение 911!</Original>
+				<English>Новое Сообщение 911!</English>
+				<French>Новое Сообщение 911!!</French>
+				<Portuguese>Новое Сообщение 911!!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_NEWMSG">
+				<Original>Новое Сообщение!</Original>
+				<English>Новое Сообщение!</English>
+				<French>Новое Сообщение!</French>
+				<Portuguese>Новое Сообщение!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_TITLE">
+				<Original>Телефон</Original>
+				<English>Телефон</English>
+				<French>Телефон!</French>
+				<Portuguese>Телефон</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_INVNMBR">
+				<Original>Неверны номер.</Original>
+				<English>Неверны номер</English>
+				<French>Неверны номер</French>
+				<Portuguese>Неверны номер</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_CONTACTUPDATED">
+				<Original>Контакт обновлен.</Original>
+				<English>Контакт обновлен.</English>
+				<French>Контакт обновлен</French>
+				<Portuguese>Контакт обновлен.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PHONE_CONTACTADDED">
+				<Original>Контакт добавлен.</Original>
+				<English>Контакт добавлен.</English>
+				<French>Контакт добавлен.</French>
+				<Portuguese>Контакт добавлен.</Portuguese>
+			</Key>
+		</Container>
+		<Container name="PLAYERNAMES">
+			<Key ID="STR_RPF_MODULES_PLAYERNAMES_NAME">
+				<Original>Имя</Original>
+				<English>Имя</English>
+				<French>Имя</French>
+				<Portuguese>Имя</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PLAYERNAMES_SET">
+				<Original>Набор</Original>
+				<English>Набор</English>
+				<French>Набор</French>
+				<Portuguese>Набор</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PLAYERNAMES_MASKED">
+				<Original>Замаскированный</Original>
+				<English>Замаскированный</English>
+				<French>Замаскированный</French>
+				<Portuguese>Замаскированный</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_PLAYERNAMES_SETNAME">
+				<Original>Название</Original>
+				<English>Название</English>
+				<French>Название</French>
+				<Portuguese>Название</Portuguese>
+			</Key>
+		</Container>
+		<Container name="POLICEPLUS">
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_UNIT">
+				<Original>Блок:</Original>
+				<English>Блок:</English>
+				<French>Блок</French>
+				<Portuguese>Блок:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CALLOUT">
+				<Original>Выноска:</Original>
+				<English>Выноска:</English>
+				<French>Выноска</French>
+				<Portuguese>Выноска:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_ADDOFFICER">
+				<Original>Добавить сотрудника</Original>
+				<English>Добавить сотрудника</English>S
+				<French>Добавить сотрудника</French>
+				<Portuguese>Добавить сотрудника</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_REMOVEOFFICER">
+				<Original>Удалить Сотрудника</Original>
+				<English>Удалить Сотрудника</English>
+				<French>Удалить Сотрудника</French>
+				<Portuguese>Удалить Сотрудника</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_REGUNIT">
+				<Original>Блок Регистра</Original>
+				<English>Блок Регистра</English>
+				<French>Блок Регистра</French>
+				<Portuguese>Блок Регистра</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_UNREGUNIT">
+				<Original>Блок Отмены Регистрации</Original>
+				<English>Блок Отмены Регистрации</English>
+				<French>Блок Отмены Регистрации</French>
+				<Portuguese>Блок Отмены Регистрацииe</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_NAME">
+				<Original>Имя</Original>
+				<English>Имя</English>
+				<French>Имя</French>
+				<Portuguese>Имя</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DESC">
+				<Original>Описание</Original>
+				<English>Описание</English>
+				<French>Описание</French>
+				<Portuguese>Описание</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_NEW">
+				<Original>Новый</Original>
+				<English>Новый</English>
+				<French>Новый</French>
+				<Portuguese>Новый</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DONE">
+				<Original>Сделанный</Original>
+				<English>Сделанный</English>
+				<French>Сделанный</French>
+				<Portuguese>Сделанный</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_ASSIGN">
+				<Original>Назначать</Original>
+				<English>Назначать</English>
+				<French>Назначать</French>
+				<Portuguese>Назначать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CALLER">
+				<Original>Абонент:</Original>
+				<English>Абонент:</English>
+				<French>Абонент</French>
+				<Portuguese>Абонент:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_POLUNITS">
+				<Original>Полицейские подразделения </Original>
+				<English>Полицейские подразделения</English>
+				<French>Полицейские подразделения</French>
+				<Portuguese>Полицейские подразделения</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_EMSUNITS">
+				<Original>Медицинские</Original>
+				<English>Медицинские</English>
+				<French>Медицинские</French>
+				<Portuguese>Медицинские</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CSELECTIONS">
+				<Original>Очистить выборки</Original>
+				<English>Очистить выборки</English>
+				<French>Очистить выборки</French>
+				<Portuguese>Очистить выборки</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MESSAGE">
+				<Original>Сообщение</Original>
+				<English>Сообщение</English>
+				<French>Сообщение</French>
+				<Portuguese>Сообщение</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_POLICEDB">
+				<Original>База данных полиции</Original>
+				<English>База данных полиции</English>
+				<French>База данных полиции</French>
+				<Portuguese>База данных полиции</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_RUN">
+				<Original>Забег</Original>
+				<English>Забег</English>
+				<French>Забег</French>
+				<Portuguese>Забег</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_ADD">
+				<Original>Добавить</Original>
+				<English>Добавить</English>
+				<French>Добавить</French>
+				<Portuguese>Добавить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_REM">
+				<Original>Удалить</Original>
+				<English>Удалить</English>
+				<French>Удалить</French>
+				<Portuguese>Удалить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_WANTED">
+				<Original>Искомый:</Original>
+				<English>Искомый:</English>
+				<French>Искомый:</French>
+				<Portuguese>Искомый:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_PRIORS">
+				<Original>Факты</Original>
+				<English>Факты</English>
+				<French>Факты</French>
+				<Portuguese>Факты</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_ADDAPRIOR">
+				<Original>Добавить факт</Original>
+				<English>Добавить факт</English>
+				<French>Добавить факт</French>
+				<Portuguese>Добавить факт</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_ADDPRIOR">
+				<Original>Добавить факт (ы)</Original>
+				<English>Добавить факт (ы)</English>
+				<French>Добавить факт (ы)</French>
+				<Portuguese>Добавить факт (ы)</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_SETWANTED">
+				<Original>Набор разыскиваемых</Original>
+				<English>Набор разыскиваемых</English>
+				<French>Набор разыскиваемых</French>
+				<Portuguese>Набор разыскиваемых</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CWANTEDSTATUS">
+				<Original>Очистить статус разыскиваемого</Original>
+				<English>Очистить статус разыскиваемого</English>
+				<French>Очистить статус разыскиваемого</French>
+				<Portuguese>Очистить статус разыскиваемого</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_NOTHINGSELECTED">
+				<Original>Ничего не выбрано. Сначала найдите преступника в списке, а затем выберите имя в поле и нажмите кнопку.</Original>
+				<English>Ничего не выбрано. Сначала найдите преступника в списке, а затем выберите имя в поле и нажмите кнопку.</English>
+				<French>Ничего не выбрано. Сначала найдите преступника в списке, а затем выберите имя в поле и нажмите кнопку.</French>
+				<Portuguese>Ничего не выбрано. Сначала найдите преступника в списке, а затем выберите имя в поле и нажмите кнопку.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CRIMEEMPTY">
+				<Original>Преступление не может быть пустым..</Original>
+				<English>Преступление не может быть пустым.</English>
+				<French>Преступление не может быть пустым.</French>
+				<Portuguese>Преступление не может быть пустым.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_PDB">
+				<Original>База данных Гвардии</Original>
+				<English>База данных Гвардии</English>
+				<French>База данных Гвардии</French>
+				<Portuguese>База данных Гвардии</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DESCEMPTY">
+				<Original>Описание не может быть пустым.</Original>
+				<English>Описание не может быть пустым.</English>
+				<French>Описание не может быть пустым.</French>
+				<Portuguese>Описание не может быть пустым.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_NOTWANTED">
+				<Original>Не в розыске.</Original>
+				<English>Не в розыске.</English>
+				<French>Не в розыске.</French>
+				<Portuguese>Не в розыске.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_NO">
+				<Original>Нет</Original>
+				<English>Нен</English>
+				<French>Нет</French>
+				<Portuguese>Нет</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DLOCATION">
+				<Original>Расположение диспетчера</Original>
+				<English>Расположение диспетчера</English>
+				<French>Расположение диспетчера</French>
+				<Portuguese>Расположение диспетчера</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_UNITBUSY">
+				<Original>Это подразделение уже занято.</Original>
+				<English>Это подразделение уже занято.</English>
+				<French>Это подразделение уже занято.</French>
+				<Portuguese>Это подразделение уже занято.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DISPATCH">
+				<Original>Dispatch</Original>
+				<English>Dispatch</English>
+				<French>Dispatch</French>
+				<Portuguese>Despacho</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MANAGEUNIT">
+				<Original>Управление подразделением</Original>
+				<English>Управление подразделением</English>
+				<French>Управление подразделением</French>
+				<Portuguese>Управление подразделением</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CHOOSEAROLE">
+				<Original>Выберите роль!</Original>
+				<English>Выберите роль!</English>
+				<French>Выберите роль!</French>
+				<Portuguese>Выберите роль!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DNOTIFIED">
+				<Original>Удачной смены! Диспетчеру сообщено о вашем присутствии.</Original>
+				<English>Удачной смены! Диспетчеру сообщено о вашем присутствии.</English>
+				<French>Удачной смены! Диспетчеру сообщено о вашем присутствии.</French>
+				<Portuguese>Удачной смены! Диспетчеру сообщено о вашем присутствии.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_ALREADYASSIGNED">
+				<Original>Уже привязано</Original>
+				<English>Уже привязано</English>
+				<French>Уже привязано</French>
+				<Portuguese>Уже привязано</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_NOTASSIGNED">
+				<Original>Не привязано</Original>
+				<English>Не привязано</English>
+				<French>Не привязано</French>
+				<Portuguese>Не привязано</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_PATROL">
+				<Original>Патруль</Original>
+				<English>Патруль</English>
+				<French>Патруль</French>
+				<Portuguese>Патруль</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_SUPERVISOR">
+				<Original>Наблюдатель</Original>
+				<English>Наблюдатель</English>
+				<French>Наблюдатель</French>
+				<Portuguese>Наблюдатель</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_DETECTIVE">
+				<Original>Детектив</Original>
+				<English>Детектив</English>
+				<French>Детектив</French>
+				<Portuguese>Детектив</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_FEDERAL">
+				<Original>Федерал</Original>
+				<English>Федерал</English>
+				<French>Федерал</French>
+				<Portuguese>Федерал</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_SWAT">
+				<Original>Спецназ полиции</Original>
+				<English>Спецназ полиции</English>
+				<French>Спецназ полиции</French>
+				<Portuguese>Спецназ полиции</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_AMBULANCE">
+				<Original>Скорая помощь</Original>
+				<English>Скорая помощь</English>
+				<French>Скорая помощь</French>
+				<Portuguese>Скорая помощь</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_FIREENGINE">
+				<Original>Пожарная машина</Original>
+				<English>Пожарная машина</English>
+				<French>Пожарная машина</French>
+				<Portuguese>Пожарная машина</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MUNITNOTREG">
+				<Original>Подразделение: не зарегистрировано</Original>
+				<English>Подразделение: не зарегистрировано</English>
+				<French>Подразделение: не зарегистрировано</French>
+				<Portuguese>Подразделение: не зарегистрировано</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MUNITSNOTREG">
+				<Original>Units: Not registered</Original>
+				<English>Units: Not registered</English>
+				<French>Unités: Non définis</French>
+				<Portuguese>Unidades: Não registradas</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MCALLOUTNOTREG">
+				<Original>Callout: Not registered</Original>
+				<English>Callout: Not registered</English>
+				<French>Appel: Non enregistré</French>
+				<Portuguese>Chamada: Não registrada</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MDESCNOTREG">
+				<Original>Описание: Not registered</Original>
+				<English>Описание: Not registered</English>
+				<French>Описание: Non enregistré</French>
+				<Portuguese>Описание: Não registrada</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MCALLOUTNONE">
+				<Original>Callout: None</Original>
+				<English>Callout: None</English>
+				<French>Appel: Aucun</French>
+				<Portuguese>Chamada: Não registrada</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MDESCNONE">
+				<Original>Описание: None</Original>
+				<English>Описание: None</English>
+				<French>Описание: Aucune</French>
+				<Portuguese>Описание: Nenhuma</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MCALLOUT">
+				<Original>Callout: %1</Original>
+				<English>Callout: %1</English>
+				<French>Appel: %1</French>
+				<Portuguese>Chamada: %1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MDESC">
+				<Original>Описание: %1</Original>
+				<English>Описание: %1</English>
+				<French>Описание: %1</French>
+				<Portuguese>Описание: %1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MUNIT">
+				<Original>Unit: %1</Original>
+				<English>Unit: %1</English>
+				<French>Unité: %1</French>
+				<Portuguese>Unidade: %1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_MUNITS">
+				<Original>Units: %1</Original>
+				<English>Units: %1</English>
+				<French>Unités: %1</French>
+				<Portuguese>Unidades: %1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_BUSY">
+				<Original>Занят</Original>
+				<English>Занят</English>
+				<French>Занят</French>
+				<Portuguese>Занят</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_AVAILABLE">
+				<Original>Доступен</Original>
+				<English>Доступен</English>
+				<French>Доступен</French>
+				<Portuguese>Доступен</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_AWAY">
+				<Original>Отбыл</Original>
+				<English>Отбыл</English>
+				<French>Отбыл</French>
+				<Portuguese>Отбыл</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_POLICEPLUS_CALLERREFRESH">
+				<Original>Вызывающий: %1</Original>
+				<English>Вызывающий: %1</English>
+				<French>Вызывающий: %1</French>
+				<Portuguese>Вызывающий: %1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_POLICEPLUSDISPATCH_OCCUPIED">
+				<Original>%1 уже диспетчер!</Original>
+				<English>%1 уже диспетчер!</English>
+				<Portuguese>%1 уже диспетчер!</Portuguese>
+			</Key>
+		</Container>
+		<Container name="SHOPSYSTEM">
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_NAME">
+				<Original>Неименование:</Original>
+				<English>Неименование:</English>
+				<French>Неименование:</French>
+				<Portuguese>Неименование:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BUY">
+				<Original>Купить</Original>
+				<English>Купить</English>
+				<French>Купить</French>
+				<Portuguese>Купить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_PRICE">
+				<Original>Цена:</Original>
+				<English>Цкена:</English>
+				<French>Цена:</French>
+				<Portuguese>Цена:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_AMOUNT">
+				<Original>Количество:</Original>
+				<English>Количество:</English>
+				<French>Количество:</French>
+				<Portuguese>Количество:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_SHOPNAME">
+				<Original>Название магазина</Original>
+				<English>Название магазина</English>
+				<French>Название магазина</French>
+				<Portuguese>Название магазина</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_SELLTOSHOP">
+				<Original>Продать</Original>
+				<English>Продать</English>
+				<French>Продать</French>
+				<Portuguese>Продать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_VALUE">
+				<Original>Стоимость:</Original>
+				<English>Стоимость:</English>
+				<French>Стоимость:</French>
+				<Portuguese>Стоимость:</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_SELL">
+				<Original>Продать</Original>
+				<English>Продать</English>
+				<French>Продать</French>
+				<Portuguese>Продать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BOUGHTNEWCAR">
+				<Original>Поздравляем с покупкой новой машины! Вот ключи.</Original>
+				<English>Поздравляем с покупкой новой машины! Вот ключи.</English>
+				<French>Поздравляем с покупкой новой машины! Вот ключи.</French>
+				<Portuguese>Поздравляем с покупкой новой машины! Вот ключи.</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_NOTENOUGHCASH">
+				<Original>У вас недостаточно денег!</Original>
+				<English>У вас недостаточно денег!</English>
+				<French>У вас недостаточно денег!</French>
+				<Portuguese>У вас недостаточно денег!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BOUGHTITEMS">
+				<Original>Вы купили предмет(ы)!</Original>
+				<English>Вы купили предмет(ы)!</English>
+				<French>Вы купили предмет(ы)!</French>
+				<Portuguese>Вы купили предмет(ы)!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BOUGHTITEM">
+				<Original>Вы купили предмет!</Original>
+				<English>Вы купили предмет!</English>
+				<French>Вы купили предмет!</French>
+				<Portuguese>Вы купили предмет!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BOUGHTMAGS">
+				<Original>Вы купили магазин(ы)!</Original>
+				<English>Вы купили магазин(ы)!</English>
+				<French>Вы купили магазин(ы)!</French>
+				<Portuguese>Вы купили магазин(ы)!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BOUGHTWEAPONS">
+				<Original>Вы купили оружие!</Original>
+				<English>Вы купили оружие!</English>
+				<French>Вы купили оружие!</French>
+				<Portuguese>Вы купили оружие!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BOUGHTCLOTHES">
+				<Original>Вы купили одежду!</Original>
+				<English>Вы купили одежду!</English>
+				<French>Вы купили одежду!</French>
+				<Portuguese>Вы купили одежду!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_BUYTHIS">
+				<Original>Купить</Original>
+				<English>Купить</English>
+				<French>Купить</French>
+				<Portuguese>Купить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_OPENSHOP">
+				<Original>Открыть магазин</Original>
+				<English>Открыть магазин</English>
+				<French>Открыть магазин</French>
+				<Portuguese>Открыть магазин</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_SOLDANITEM">
+				<Original>Вы продали предмет!</Original>
+				<English>Вы продали предмет!</English>
+				<French>Вы продали предмет!</French>
+				<Portuguese>Вы продали предмет!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_SOLDCLOTHES">
+				<Original>Вы продали одежду!</Original>
+				<English>Вы продали одежду!</English>
+				<French>Вы продали одежду!</French>
+				<Portuguese>Вы продали одежду!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_SHOPSYSTEM_DONTHAVETHAT">
+				<Original>У вас этого нет!</Original>
+				<English>У вас этого нет!</English>
+				<French>У вас этого нет!</French>
+				<Portuguese>У вас этого нет!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_VEHICLESTORE">
+				<Original>Магазин техники</Original>
+				<English>Магазин техники</English>
+				<French>Магазин техники</French>
+				<Portuguese>Магазин техники</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_GENERALSTORE">
+				<Original>Магазин</Original>
+				<English>Магазин</English>
+				<French>Магазин</French>
+				<Portuguese>Магазин</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_DRUGDEALER">
+				<Original>Наркоторговец</Original>
+				<English>Наркоторговец</English>
+				<French>Наркоторговец</French>
+				<Portuguese>Наркоторговец</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_FARMSTORE">
+				<Original>Магазин</Original>
+				<English>Магазин</English>
+				<French>Магазин</French>
+				<Portuguese>Магазин</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_GUNSTORE">
+				<Original>Оружейная</Original>
+				<English>Оружейная</English>
+				<French>Оружейная</French>
+				<Portuguese>Оружейная</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_POLSTORE">
+				<Original>Магазин гвардии</Original>
+				<English>Магазин гвардии</English>
+				<French>Магазин гвардии</French>
+				<Portuguese>Магазин гвардии</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_SHOPSYSTEM_EMSSTORE">
+				<Original>Медицинский склад</Original>
+				<English>Медицинский склад</English>
+				<French>Медицинский склад</French>
+				<Portuguese>Медицинский склад</Portuguese>
+			</Key>
+		</Container>
+		<Container name="TICKETING">
+			<Key ID="STR_RPF_MODULES_TICKETING_TICKET">
+				<Original>Штраф</Original>
+				<English>Штраф</English>
+				<French>Штраф</French>
+				<Portuguese>Штраф</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_AMOUNT">
+				<Original>К оплате</Original>
+				<English>К оплате</English>
+				<French>К оплате</French>
+				<Portuguese>К оплате</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_REASON">
+				<Original>Причина</Original>
+				<English>Причина</English>
+				<French>Причина</French>
+				<Portuguese>Причина</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_PAY">
+				<Original>Заплатить</Original>
+				<English>Заплатить</English>
+				<French>Заплатить</French>
+				<Portuguese>Заплатить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_REFUSE">
+				<Original>Отказаться</Original>
+				<English>Отказаться</English>
+				<French>Отказаться</French>
+				<Portuguese>Отказаться</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_TICKETAMOUNT">
+				<Original>Объем штрафов</Original>
+				<English>Объем штрафов</English>
+				<French>Объем штрафов</French>
+				<Portuguese>Объем штрафов</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_TICKETREASON">
+				<Original>Причина выдачи штрафа</Original>
+				<English>Причина выдачи штрафа</English>
+				<French>Причина выдачи штрафа</French>
+				<Portuguese>Причина выдачи штрафа</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_SUBMIT">
+				<Original>Отправить</Original>
+				<English>Отправить</English>
+				<French>Отправить</French>
+				<Portuguese>Отправить</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_ISSUE">
+				<Original>Выписать штраф</Original>
+				<English>Выписать штраф</English>
+				<French>Выписать штраф</French>
+				<Portuguese>Выписать штраф</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_PAIDTICKET">
+				<Original>Штраф оплачен</Original>
+				<English>Штраф оплачен</English>
+				<French>Штраф оплачен</French>
+				<Portuguese>Штраф оплачен</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_NOTENOUGHBANK">
+				<Original>Недостаточно средств на счету!</Original>
+				<English>Недостаточно средств на счету!</English>
+				<French>Недостаточно средств на счету!</French>
+				<Portuguese>Недостаточно средств на счету!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_FAILEDNOTENOUGH">
+				<Original>У оштрафованного недостаточно денег для оплаты штрафа!</Original>
+				<English>У оштрафованного недостаточно денег для оплаты штрафа!</English>
+				<French>У оштрафованного недостаточно денег для оплаты штрафа!</French>
+				<Portuguese>У оштрафованного недостаточно денег для оплаты штрафа!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_REFUSEDTICKET">
+				<Original>Оштрафованный отказался оплачивать штраф!</Original>
+				<English>Оштрафованный отказался оплачивать штраф!</English>
+				<French>Оштрафованный отказался оплачивать штраф!</French>
+				<Portuguese>Оштрафованный отказался оплачивать штраф!</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_TICKETING_AMOUNTGTZ">
+				<Original>Сумма штрафа должна быть больше 0$!</Original>
+				<English>Сумма штрафа должна быть больше 0$!</English>
+				<French>Сумма штрафа должна быть больше 0$!</French>
+				<Portuguese>Сумма штрафа должна быть больше 0$!</Portuguese>
+			</Key>
+		</Container>
+		<Container name="LICENSES">
+			<Key ID="STR_RPF_MODULES_LICENSES_SHOW">
+				<Original>Показать</Original>
+				<English>Показать</English>
+				<French>Показать</French>
+				<Portuguese>Показать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_LICENSES_GRANT">
+				<Original>Выдать</Original>
+				<English>Выдать</English>
+				<French>Выдать</French>
+				<Portuguese>Выдать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_LICENSES_REVOKE">
+				<Original>Отозвать</Original>
+				<English>Отозвать</English>
+				<French>Отозвать</French>
+				<Portuguese>Отозвать</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_LICENSES_MYLS">
+				<Original>Мои лицензии</Original>
+				<English>Мои лицензии</English>
+				<French>Мои лицензии</French>
+				<Portuguese>Мои лицензии</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_MODULES_LICENSES_MANLS">
+				<Original>Управление лицензиями</Original>
+				<English>Управление лицензиями</English>
+				<French>Управление лицензиями</French>
+				<Portuguese>Управление лицензиями</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_LICENSES_NEWLICENSE">
+				<Original>Получена лицензия %1</Original>
+				<English>Получена лицензия %1</English>
+				<French>Получена лицензия %1</French>
+				<Portuguese>Получена лицензия %1</Portuguese>
+			</Key>
+			<Key ID="STR_RPF_LICENSES_REVOKED">
+				<Original>Лицензия %1 отозвана.</Original>
+				<English>Лицензия %1 отозвана.</English>
+				<French>Лицензия %1 отозвана.</French>
+				<Portuguese>Лицензия %1 отозвана.</Portuguese>
+			</Key>
+		</Container>
+	</Package>
+</Project>
