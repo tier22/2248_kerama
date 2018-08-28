@@ -27849,7 +27849,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this addaction [""Пехотинец с винтовкой"",""equip.sqf"",""solid""]; " \n "this addaction [""Пехотинец с карабином"",""equip.sqf"",""solid_carab""]; " \n "this addaction [""ARF"",""equip.sqf"",""arf""]; " \n "this addaction [""ARF-наводчик"",""equip.sqf"",""arf_supp""]; " \n "this addaction [""Сапер"",""equip.sqf"",""sapper""]; " \n "this addaction [""Снайпер"",""equip.sqf"",""mark""]; " \n "this addaction [""Стрелок с РПГ"",""equip.sqf"",""solid_rpg""]; " \n "this addaction [""Оператор ПТРК"",""equip.sqf"",""solid_atgm""]; " \n "this addaction [""Медик"",""equip.sqf"",""med""]; " \n "this addaction [""Пулеметчик с DLT-19"",""equip.sqf"",""lmg""]; " \n "this addaction [""Пулеметчик с Z-6"",""equip.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip.sqf"",""pilot""]; " \n "}";
+						init="call{this addaction [""Пехотинец с винтовкой"",""equip.sqf"",""solid""]; " \n "this addaction [""Пехотинец с карабином"",""equip.sqf"",""solid_carab""]; " \n "this addaction [""ARF"",""equip.sqf"",""arf""]; " \n "this addaction [""ARF-наводчик"",""equip.sqf"",""arf_supp""]; " \n "this addaction [""Сапер"",""equip.sqf"",""sapper""]; " \n "  " \n "this addaction [""Стрелок с РПГ"",""equip.sqf"",""solid_rpg""]; " \n "this addaction [""Медик"",""equip.sqf"",""med""]; " \n "this addaction [""Пулеметчик с DLT-19"",""equip.sqf"",""lmg""]; " \n "this addaction [""Пулеметчик с Z-6"",""equip.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip.sqf"",""pilot""]; " \n "}";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
 					};
@@ -27944,7 +27944,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this addaction [""Винтовка"",""equip_guard.sqf"",""solid""]; " \n "this addaction [""Карабин"",""equip_guard.sqf"",""solid_carab""]; " \n "this addaction [""Офицер"",""equip_guard.sqf"",""officer""]; " \n "this addaction [""Сержант"",""equip_guard.sqf"",""serg""]; " \n "this addaction [""Сапер"",""equip_guard.sqf"",""sapper""]; " \n "this addaction [""Снайпер"",""equip_guard.sqf"",""mark""]; " \n "this addaction [""РПГ"",""equip_guard.sqf"",""solid_rpg""]; " \n "this addaction [""ПТРК"",""equip_guard.sqf"",""solid_atgm""]; " \n "this addaction [""Медик"",""equip_guard.sqf"",""med""]; " \n "this addaction [""DLT"",""equip_guard.sqf"",""lmg""]; " \n "this addaction [""Z-6"",""equip_guard.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip_guard.sqf"",""pilot""];}";
+						init="call{this addaction [""Винтовка"",""equip_guard.sqf"",""solid""]; " \n "this addaction [""Карабин"",""equip_guard.sqf"",""solid_carab""]; " \n "this addaction [""Офицер"",""equip_guard.sqf"",""officer""]; " \n "this addaction [""Сержант"",""equip_guard.sqf"",""serg""]; " \n "this addaction [""Сапер"",""equip_guard.sqf"",""sapper""]; "  \n "this addaction [""РПГ"",""equip_guard.sqf"",""solid_rpg""]; " \n "this addaction [""Медик"",""equip_guard.sqf"",""med""]; " \n "this addaction [""DLT"",""equip_guard.sqf"",""lmg""]; " \n "this addaction [""Z-6"",""equip_guard.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip_guard.sqf"",""pilot""];}";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
 						stance="Up";
@@ -29806,7 +29806,7 @@ class Mission
 					flags=3;
 					class Attributes
 					{
-						init="call{this addaction [""Винтовка"",""equip.sqf"",""solid""]; " \n "this addaction [""Карабин"",""equip.sqf"",""solid_carab""]; " \n "this addaction [""ARF"",""equip.sqf"",""arf""]; " \n "this addaction [""ARF-наводчик"",""equip.sqf"",""arf_supp""]; " \n "this addaction [""Сапер"",""equip.sqf"",""sapper""]; " \n "this addaction [""Снайпер"",""equip.sqf"",""mark""]; " \n "this addaction [""РПГ"",""equip.sqf"",""solid_rpg""]; " \n "this addaction [""ПТРК"",""equip.sqf"",""solid_atgm""]; " \n "this addaction [""Медик"",""equip.sqf"",""med""]; " \n "this addaction [""DLT"",""equip.sqf"",""lmg""]; " \n "this addaction [""Z-6"",""equip.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip.sqf"",""pilot""]; " \n "}";
+						init="call{this addaction [""Винтовка"",""equip.sqf"",""solid""]; " \n "this addaction [""Карабин"",""equip.sqf"",""solid_carab""]; " \n "this addaction [""ARF"",""equip.sqf"",""arf""]; " \n "this addaction [""ARF-наводчик"",""equip.sqf"",""arf_supp""]; " \n "this addaction [""Сапер"",""equip.sqf"",""sapper""]; " \n "  " \n "this addaction [""РПГ"",""equip.sqf"",""solid_rpg""]; " \n "  " \n "this addaction [""Медик"",""equip.sqf"",""med""]; " \n "this addaction [""DLT"",""equip.sqf"",""lmg""]; " \n "this addaction [""Z-6"",""equip.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip.sqf"",""pilot""]; " \n "}";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
 					};
@@ -30018,7 +30018,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this addaction [""Пехотинец с винтовкой"",""equip_guard.sqf"",""solid""]; " \n "this addaction [""Пехотинец с карабином"",""equip_guard.sqf"",""solid_carab""]; this addaction [""Старший офицер"",""equip_guard.sqf"",""officer""]; " \n "this addaction [""Сержант"",""equip_guard.sqf"",""serg""]; " \n "this addaction [""Сапер"",""equip_guard.sqf"",""sapper""]; " \n "this addaction [""Снайпер"",""equip_guard.sqf"",""mark""]; " \n "this addaction [""Стрелок с РПГ"",""equip_guard.sqf"",""solid_rpg""]; " \n "this addaction [""Оператор ПТРК"",""equip_guard.sqf"",""solid_atgm""]; " \n "this addaction [""Медик"",""equip_guard.sqf"",""med""]; " \n "this addaction [""Пулеметчик с DLT-19"",""equip_guard.sqf"",""lmg""]; " \n "this addaction [""Пулеметчик с Z-6"",""equip_guard.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip_guard.sqf"",""pilot""]; }";
+						init="call{this addaction [""Пехотинец с винтовкой"",""equip_guard.sqf"",""solid""]; " \n "this addaction [""Пехотинец с карабином"",""equip_guard.sqf"",""solid_carab""]; this addaction [""Старший офицер"",""equip_guard.sqf"",""officer""]; " \n "this addaction [""Сержант"",""equip_guard.sqf"",""serg""]; " \n "this addaction [""Сапер"",""equip_guard.sqf"",""sapper""]; " \n "this addaction [""Стрелок с РПГ"",""equip_guard.sqf"",""solid_rpg""]; "  \n "this addaction [""Медик"",""equip_guard.sqf"",""med""]; " \n "this addaction [""Пулеметчик с DLT-19"",""equip_guard.sqf"",""lmg""]; " \n "this addaction [""Пулеметчик с Z-6"",""equip_guard.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip_guard.sqf"",""pilot""]; }";
 						disableSimulation=1;
 					};
 					id=3578;
@@ -31864,7 +31864,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this addaction [""Пехотинец с винтовкой"",""equip_arc_inst.sqf"",""solid""]; " \n "this addaction [""Пехотинец с карабином"", ""equip_arc_inst.sqf"",""solid_carab""]; " \n "this addaction [""ARF"",""equip_arc_inst.sqf"",""arf""]; " \n "this addaction [""ARF-наводчик"",""equip_arc_inst.sqf"",""arf_supp""]; " \n "this addaction [""Сапер"",""equip_arc_inst.sqf"",""sapper""]; " \n "this addaction [""Снайпер"",""equip_arc_inst.sqf"",""mark""]; " \n "this addaction [""Стрелок с РПГ"",""equip_arc_inst.sqf"",""solid_rpg""]; " \n "this addaction [""Оператор ПТРК"",""equip_arc_inst.sqf"",""solid_atgm""]; " \n "this addaction [""Медик"",""equip_arc_inst.sqf"",""med""]; " \n "this addaction [""Пулеметчик с DLT-19"",""equip_arc_inst.sqf"",""lmg""]; " \n "this addaction [""Пулеметчик с Z-6"",""equip_arc_inst.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip_arc_inst.sqf"",""pilot""]; " \n "}";
+						init="call{this addaction [""Пехотинец с винтовкой"",""equip_arc_inst.sqf"",""solid""]; " \n "this addaction [""Пехотинец с карабином"", ""equip_arc_inst.sqf"",""solid_carab""]; " \n "this addaction [""ARF"",""equip_arc_inst.sqf"",""arf""]; " \n "this addaction [""ARF-наводчик"",""equip_arc_inst.sqf"",""arf_supp""]; " \n "this addaction [""Сапер"",""equip_arc_inst.sqf"",""sapper""]; " \n "this addaction [""Стрелок с РПГ"",""equip_arc_inst.sqf"",""solid_rpg""]; " \n  "this addaction [""Медик"",""equip_arc_inst.sqf"",""med""]; " \n "this addaction [""Пулеметчик с DLT-19"",""equip_arc_inst.sqf"",""lmg""]; " \n "this addaction [""Пулеметчик с Z-6"",""equip_arc_inst.sqf"",""hmg""]; " \n "this addaction [""Пилот"",""equip_arc_inst.sqf"",""pilot""]; " \n "}";
 						disableSimulation=1;
 						ignoreByDynSimulGrid=1;
 						class Inventory

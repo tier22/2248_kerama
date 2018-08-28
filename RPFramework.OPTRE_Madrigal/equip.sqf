@@ -240,7 +240,7 @@ case("lmg"):
 	for "_i" from 1 to 10 do {player addItemToVest "ACE_tourniquet";};
 	for "_i" from 1 to 14 do {player addItemToBackpack "SWOP_DLT19BlasterRifle_Mag";};
 	player addHeadgear "SWOP_Clonetrooper_helmet_p1";
-
+	player addItemToVest "ACE_EarPlugs";
 	player addWeapon "SWOP_DLT19BlasterRifle";
 
 	player linkItem "ItemMap";
@@ -275,7 +275,7 @@ case("mark"):
 	for "_i" from 1 to 10 do {player addItemToVest "ACE_tourniquet";};
 	for "_i" from 1 to 14 do {player addItemToBackpack "SWOP_DLT19BlasterRifle_Mag";};
 	player addHeadgear "SWOP_Clonetrooper_helmet_p1";
-
+	player addItemToVest "ACE_EarPlugs";
 	player addWeapon "SWOP_DLT19DBlasterRifle";
 
 	player linkItem "ItemMap";
@@ -310,7 +310,7 @@ case("arf"):
 	for "_i" from 1 to 10 do {player addItemToVest "ACE_tourniquet";};
 	for "_i" from 1 to 12 do {player addItemToVest "SWOP_DLT19BlasterRifle_Mag";};
 	player addHeadgear "SWOP_Clonetrooper_ARF_helmet";
-
+	player addItemToVest "ACE_EarPlugs";
 	player addWeapon "SWOP_DLT19DBlasterRifle";
 
 	player linkItem "ItemMap";
@@ -346,7 +346,7 @@ case("arf_supp"):
 	for "_i" from 1 to 10 do {player addItemToVest "ACE_tourniquet";};
 	for "_i" from 1 to 12 do {player addItemToVest "SWOP_DLT19BlasterRifle_Mag";};
 	player addHeadgear "SWOP_Clonetrooper_ARF_helmet";
-
+	player addItemToVest "ACE_EarPlugs";
 	player addWeapon "SCI_arifle_DC15S_F";
 
 	player linkItem "ItemMap";
@@ -383,7 +383,7 @@ case("hmg"):
 	for "_i" from 1 to 14 do {player addItemToBackpack "300Rnd_BlasterLaser_Belt";};
 	player addItemToBackpack "ACE_Tripod";
 	player addHeadgear "SWOP_Clonetrooper_helmet_p1";
-
+	player addItemToVest "ACE_EarPlugs";
 	player addWeapon "SWOP_Z6Blaster";
 
 	player linkItem "ItemMap";
@@ -423,7 +423,7 @@ case("sapper"):
 	player addItemToVest "MineDetector";
 	for "_i" from 2 to 5 do {player addItemToVest "DemoCharge_Remote_Mag";};
 	player addWeapon "SCI_arifle_DC15S_F";
-
+	player addItemToVest "ACE_EarPlugs";
 	player linkItem "ItemMap";
 	player linkItem "ItemCompass";
 	player linkItem "ItemWatch";

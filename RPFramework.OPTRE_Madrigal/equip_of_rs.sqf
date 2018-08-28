@@ -21,6 +21,7 @@ case("capt"):
 	for "_i" from 1 to 8 do {player addItemToUniform "SCI_45Rnd_DC15S_mag";};
 	player addVest "SWOP_Clonetrooper_P1_captain_armor";
 	player addBackpack "SWOP_B_CloneDVa";
+	player addItemToVest "ACE_EarPlugs";
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_elasticBandage";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_quikclot";};
@@ -57,6 +58,7 @@ case("lieut"):
 	for "_i" from 1 to 8 do {player addItemToUniform "SCI_45Rnd_DC15S_mag";};
 	player addVest "SWOP_Clonetrooper_P1_lieutenant_armor";
 	player addBackpack "SWOP_B_CloneDVa";
+	player addItemToVest "ACE_EarPlugs";
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_elasticBandage";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_quikclot";};
@@ -93,6 +95,7 @@ case("kk"):
 	for "_i" from 1 to 8 do {player addItemToUniform "SCI_45Rnd_DC15S_mag";};
 	player addVest "SWOP_Clonetrooper_P1_commander_armor";
 	player addBackpack "SWOP_B_CloneDVa";
+	player addItemToVest "ACE_EarPlugs";
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_elasticBandage";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_quikclot";};
@@ -129,6 +132,7 @@ case("serg"):
 	for "_i" from 1 to 8 do {player addItemToUniform "SCI_45Rnd_DC15S_mag";};
 	player addVest "SWOP_Clonetrooper_P1_sergeant_armor";
 	player addBackpack "SWOP_B_CloneDVa";
+	player addItemToVest "ACE_EarPlugs";
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_elasticBandage";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_quikclot";};
