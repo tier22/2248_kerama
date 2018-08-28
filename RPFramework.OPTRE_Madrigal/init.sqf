@@ -12,7 +12,7 @@ _EndSplashScreen = {
 //#include "equip.sqf"
 [] spawn _EndSplashScreen;
 uiSleep 0;
-
+execvm "camera_force.sqf";
 if (isServer) then {
 	[] call Server_fnc_handleDisconnect;
 	[] spawn Server_fnc_statSaveLoop;
