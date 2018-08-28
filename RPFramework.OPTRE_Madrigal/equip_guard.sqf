@@ -6,8 +6,8 @@ switch (_param) do {
 
 case("solid"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -41,8 +41,8 @@ case("solid"):
 
 case("solid_carab"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -78,8 +78,8 @@ case("solid_carab"):
 
 case("med"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -116,13 +116,13 @@ case("med"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 
 case("solid_rpg"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -153,13 +153,13 @@ case("solid_rpg"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 
 case("solid_atgm"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -190,13 +190,13 @@ case("solid_atgm"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 
 case("pilot"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -227,13 +227,13 @@ case("pilot"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_cosir1";
 	 
-	sleep 3;
+	 
 };
 
 case("lmg"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -265,13 +265,13 @@ case("lmg"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 
 case("mark"):
 {	
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -303,13 +303,13 @@ case("mark"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 
 case("officer"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -342,13 +342,13 @@ case("officer"):
 	player linkitem "SWOP_cosir4a";
 	player linkitem "ElectroBinocularsW_F";
 	 
-	sleep 3;
+	 
 };
 
 case("serg"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -381,13 +381,13 @@ case("serg"):
 	player linkitem "SWOP_cosir4a";
 	player linkitem "ElectroBinocularsW_F";
 	 
-	sleep 3;
+	 
 };
 
 case("hmg"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -420,13 +420,13 @@ case("hmg"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 
 case("sapper"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -460,6 +460,6 @@ case("sapper"):
 	player linkItem "tf_anprc152_1";
 	player linkitem "SWOP_visor_w";
 	 
-	sleep 3;
+	 
 };
 };

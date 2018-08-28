@@ -6,8 +6,8 @@ switch (_param) do {
 
 case("capt"):
 {
-hintsilent _param;
-	sleep 3;
+ 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -37,13 +37,13 @@ hintsilent _param;
 	player linkitem "SWOP_cosir2_P1";
 	player linkitem "ElectroBinocularsW_F";
 	 
-	sleep 3;
+	 
 };
 
 case("lieut"):
 {
-hintsilent _param;
-	sleep 3;
+ 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -73,13 +73,13 @@ hintsilent _param;
 	player linkitem "SWOP_cosir2_P1";
 	player linkitem "ElectroBinocularsW_F";
 	 
-	sleep 3;
+	 
 };
 
 case("kk"):
 {
-hintsilent _param;
-	sleep 3;
+ 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -109,13 +109,13 @@ hintsilent _param;
 	player linkitem "SWOP_cosir2_P1";
 	player linkitem "ElectroBinocularsW_F";
 	 
-	sleep 3;
+	 
 };
 
 case("serg"):
 {
-	hintsilent _param;
-	sleep 3;
+	 
+	 
 	removeAllWeapons player;
     removeAllItems player;
     removeAllAssignedItems player;
@@ -145,6 +145,6 @@ case("serg"):
 	player linkitem "SWOP_cosir2_P1";
 	player linkitem "ElectroBinocularsW_F";
 	 
-	sleep 3;
+	 
 };
 };
