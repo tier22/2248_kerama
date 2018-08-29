@@ -93,6 +93,7 @@ case("med"):
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_fieldDressing";};
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_elasticBandage";};
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_quikclot";};
+	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_packingBandage";};
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_fieldDressing";};
 	for "_i" from 1 to 50 do {player addItemToBackpack "ACE_tourniquet";};
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_morphine";};
