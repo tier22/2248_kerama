@@ -1,9 +1,3 @@
-hintsilent "CAMERA FORCE WILL BE ACTIVE IN 3 SEC"; 	
-uisleep 3;
-hintsilent "";
-hintsilent "CAMERA FORCE ACTIVE";
-uisleep 1;
-hintsilent "";
 quest = true;
 while {true} do 
 {
@@ -48,7 +42,7 @@ switch (Params_CameraView) do
 		while {(quest)} do
 		{
 			if (Params_CameraView !=3) then {quest = false;};
-			hintsilent str Params_CameraView;
+			hintsilent "¬ид только от 1го лица";
 			if (cameraView == "External") then
 			{
 				if ((vehicle player) == cameraOn) then
@@ -61,10 +55,11 @@ switch (Params_CameraView) do
 	};
 	default 
 	{
+		hintsilent "¬ид от 3его лица разрешен";
 		while {(quest)} do
 			{
 				if (Params_CameraView < 4) then {quest = false;};
-				hintsilent str Params_CameraView;
+				
 				sleep 0.01;
 		};
 	};
