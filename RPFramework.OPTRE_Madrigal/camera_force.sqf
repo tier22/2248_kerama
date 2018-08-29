@@ -42,7 +42,7 @@ switch (Params_CameraView) do
 		while {(quest)} do
 		{
 			if (Params_CameraView !=3) then {quest = false;};
-			hintsilent "¬ид только от 1го лица";
+			hintsilent "First person camera only";
 			if (cameraView == "External") then
 			{
 				if ((vehicle player) == cameraOn) then
@@ -51,11 +51,11 @@ switch (Params_CameraView) do
 				};
 			};
 			sleep 0.01;
+			hintsilent "";
 		};
 	};
 	default 
-	{
-		hintsilent "¬ид от 3его лица разрешен";
+	{	
 		while {(quest)} do
 			{
 				if (Params_CameraView < 4) then {quest = false;};
