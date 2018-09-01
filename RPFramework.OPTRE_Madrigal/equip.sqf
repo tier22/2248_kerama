@@ -90,14 +90,13 @@ case("med"):
 	for "_i" from 1 to 12 do {player addItemToUniform "SCI_45Rnd_DC15S_mag";};
 
 	player addItemToBackpack "ACE_surgicalKit";
-	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_fieldDressing";};
-	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_elasticBandage";};
-	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_quikclot";};
+	for "_i" from 1 to 50 do {player addItemToBackpack "ACE_elasticBandage";};
+	for "_i" from 1 to 20 do {player addItemToBackpack "ACE_quikclot";};
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_packingBandage";};
-	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_fieldDressing";};
+	for "_i" from 1 to 20 do {player addItemToBackpack "ACE_fieldDressing";};
 	for "_i" from 1 to 50 do {player addItemToBackpack "ACE_tourniquet";};
 	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_morphine";};
-	for "_i" from 1 to 30 do {player addItemToBackpack "ACE_epinephrine";};
+	for "_i" from 1 to 20 do {player addItemToBackpack "ACE_epinephrine";};
 	for "_i" from 1 to 20 do {player addItemToBackpack "ACE_bloodIV_250";};
 	player addHeadgear "SWOP_Clonetrooper_helmet_p1";
 
@@ -233,7 +232,7 @@ case("lmg"):
 
 	player forceAddUniform "SWOP_Clonetrooper_P1_F_CombatUniform";
 	for "_i" from 1 to 16 do {player addItemToUniform "SWOP_DLT19BlasterRifle_Mag";};
-	player addVest "SWOP_Clonetrooper_P1_armor";
+	player addVest "SWOP_Clonetrooper_armor_air";
 	player addBackpack "SWOP_B_CloneBackpack";
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_elasticBandage";};
@@ -375,13 +374,14 @@ case("hmg"):
 
 	player forceAddUniform "SWOP_Clonetrooper_P1_F_CombatUniform";
 	for "_i" from 1 to 16 do {player addItemToUniform "300Rnd_BlasterLaser_Belt";};
-	player addVest "SWOP_Clonetrooper_P1_armor";
+	player addVest "SWOP_Clonetrooper_armor_air";
 	player addBackpack "SWOP_B_CloneBackpack";
+	for "_i" from 1 to 15 do {player addItemToUniform "300Rnd_BlasterLaser_Belt";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_elasticBandage";};
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_quikclot";};
+	for "_i" from 1 to 5 do {player addItemToVest "SW_halfshield_Mag";};
 	for "_i" from 1 to 10 do {player addItemToVest "ACE_tourniquet";};
-	for "_i" from 1 to 14 do {player addItemToBackpack "300Rnd_BlasterLaser_Belt";};
 	player addItemToBackpack "ACE_Tripod";
 	player addHeadgear "SWOP_Clonetrooper_helmet_p1";
 	player addItemToVest "ACE_EarPlugs";
