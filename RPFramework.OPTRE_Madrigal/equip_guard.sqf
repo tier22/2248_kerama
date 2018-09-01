@@ -366,9 +366,9 @@ case("arc"):
 	removeHeadgear player;
 	removeGoggles player;
 
-	player forceAddUniform "SWOP_Clonetrooper_P1_CG1_F_CombatUniform";
+	player forceAddUniform "SWOP_Clonetrooper_CG_F_CombatUniform";
 	for "_i" from 1 to 10 do {player addItemToUniform "SCI_45Rnd_DC15S_mag";};
-	player addVest "SWOP_Clonetrooper_P1_CGthire_armor_officer";
+	player addVest "SWOP_Clonetrooper_CG_armor_pauldrons";
 	player addBackpack "SWOP_B_CloneDVa";
 	player addItemToVest "ACE_EarPlugs";
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
@@ -376,7 +376,7 @@ case("arc"):
 	for "_i" from 1 to 5 do {player addItemToVest "ACE_quikclot";};
 	for "_i" from 1 to 10 do {player addItemToVest "ACE_tourniquet";};
 	for "_i" from 1 to 4 do {player addItemToVest "DCStun_Mag";};
-	player addHeadgear "SWOP_Clonetrooper_helmet_p1_CGthire";
+	player addHeadgear "SWOP_Clonetrooper_helmet_p1_CG2";
 	player addItemToBackpack "RPF_Items_HandcuffKeys";
 	for "_i" from 1 to 20 do {player addItemToBackpack "RPF_Items_Handcuffs";};
 	player addWeapon "SCI_arifle_DC15S_F";
@@ -387,7 +387,7 @@ case("arc"):
 	player linkItem "ItemCompass";
 	player linkItem "ItemWatch";
 	player linkItem "tf_anprc152_1";
-	player linkitem "SWOP_cosir4a";
+	player linkitem "SWOP_cosir3_P1";
 	player linkitem "ElectroBinocularsW_F";
 	 
 	 
